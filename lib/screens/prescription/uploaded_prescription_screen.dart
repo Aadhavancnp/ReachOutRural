@@ -15,7 +15,6 @@ class UploadedPrescriptionScreen extends StatelessWidget {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-          backgroundColor: kWhiteColor,
           appBar: AppBar(
             elevation: 0,
             leading: IconButton(
@@ -49,8 +48,14 @@ class UploadedPrescriptionScreen extends StatelessWidget {
                           child: Text(
                         'Local',
                         overflow: TextOverflow.ellipsis,
+                        style: TextStyle(color: kWhiteColor),
                       )),
-                      Tab(child: Text("Cloud", overflow: TextOverflow.ellipsis))
+                      Tab(
+                          child: Text(
+                        "Cloud",
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(color: kWhiteColor),
+                      ))
                     ],
                   ),
                 ),
@@ -70,10 +75,10 @@ class UploadedPrescriptionScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 20),
-          _buildSectionTitle('Today (5)'),
-          _buildImageGrid(5),
-          _buildSectionTitle('Last Week (1)'),
+          _buildSectionTitle('Today (1)'),
           _buildImageGridForLocal(1),
+          _buildSectionTitle('Last Week (5)'),
+          _buildImageGrid(5),
         ],
       ),
     );

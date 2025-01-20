@@ -1,0 +1,243 @@
+{
+  "@@locale": "or",
+  "continue_text": "ଜାରି ରଖନ୍ତୁ",
+  "@continue_text": {
+    "description": "ଜାରି ରଖନ୍ତୁ ବଟନ୍"
+  },
+  "get_started": "ଆରମ୍ଭ କରନ୍ତୁ",
+  "@get_started": {
+    "description": "ଆରମ୍ଭ କରନ୍ତୁ ବଟନ୍"
+  },
+  "login": "ଲଗ୍ଇନ୍ କରନ୍ତୁ",
+  "@login": {
+    "description": "ଲଗ୍ଇନ୍ କରନ୍ତୁ ବଟନ୍"
+  },
+  "login_desc": "ଆସନ୍ତୁ, Reach Out Rural ର ଆନନ୍ଦ ଉପଭୋଗ କରିବା।",
+  "@login_desc": {
+    "description": "ଲଗ୍ଇନ୍ ବର୍ଣ୍ଣନା"
+  },
+  "phone_number": "ଫୋନ୍ ନମ୍ବର",
+  "@phone_number": {
+    "description": "ଫୋନ୍ ନମ୍ବର"
+  },
+  "register": "ନାମ ଲେଖାନ୍ତୁ",
+  "@register": {
+    "description": "ନାମ ଲେଖାନ୍ତୁ ବଟନ୍"
+  },
+  "register_desc": "ଆସନ୍ତୁ, Reach Out Rural ର ଆନନ୍ଦ ଉପଭୋଗ କରିବା।",
+  "@register_desc": {
+    "description": "ନାମ ଲେଖାନ୍ତୁ ବର୍ଣ୍ଣନା"
+  },
+  "dont_have_account": "ଆକାଉଣ୍ଟ ନାହିଁ କି? ",
+  "@dont_have_account": {
+    "description": "ଆକାଉଣ୍ଟ ନାହିଁ କି? "
+  },
+  "have_account": "ପୂର୍ବରୁ ଆକାଉଣ୍ଟ ଅଛି କି? ",
+  "@have_account": {
+    "description": "ପୂର୍ବରୁ ଆକାଉଣ୍ଟ ଅଛି କି? "
+  },
+  "need_help": "ସାହାଯ୍ୟ ଦରକାର?",
+  "@need_help": {
+    "description": "ସାହାଯ୍ୟ ଦରକାର?"
+  },
+  "invalid_phone_number": "ଅବୈଧ ମୋବାଇଲ୍ ନମ୍ବର",
+  "@invalid_phone_number": {
+    "description": "ଅବୈଧ ମୋବାଇଲ୍ ନମ୍ବର"
+  },
+  "otp_verification": "OTP ଯାଞ୍ଚ",
+  "@otp_verification": {
+    "description": "OTP ଯାଞ୍ଚ"
+  },
+  "otp_verification_desc": "ଆମେ ଆପଣଙ୍କ କୋଡ୍ ପଠାଇଛୁ ",
+  "@otp_verification_desc": {
+    "description": "OTP ଯାଞ୍ଚ ବର୍ଣ୍ଣନା"
+  },
+  "otp_expire": "ଏହି କୋଡ୍ ମିଆଦ ସରିଯିବ ",
+  "@otp_expire": {
+    "description": "OTP ମିଆଦ ସରିଯିବା"
+  },
+  "resend_otp": "OTP କୋଡ୍ ପୁନଃ ପଠାନ୍ତୁ",
+  "@resend_otp": {
+    "description": "OTP କୋଡ୍ ପୁନଃ ପଠାନ୍ତୁ"
+  },
+  "what_is_gender": "ଆପଣଙ୍କ ଲିଙ୍ଗ କ’ଣ?",
+  "@what_is_gender": {
+    "description": "ଲିଙ୍ଗ"
+  },
+  "what_is_age": "ଆପଣଙ୍କ ବୟସ କ’ଣ?",
+  "@what_is_age": {
+    "description": "ବୟସ"
+  },
+  "male": "ପୁରୁଷ",
+  "@male": {
+    "description": "ପୁରୁଷ"
+  },
+  "female": "ମହିଳା",
+  "@female": {
+    "description": "ମହିଳା"
+  },
+  "other": "ଅନ୍ୟ",
+  "@other": {
+    "description": "ଅନ୍ୟ"
+  },
+  "what_is_height": "ଆପଣଙ୍କ ଉଚ୍ଚତା କ’ଣ?",
+  "@what_is_height": {
+    "description": "ଉଚ୍ଚତା"
+  },
+  "what_is_weight": "ଆପଣଙ୍କ ଓଜନ କ’ଣ?",
+  "@what_is_weight": {
+    "description": "ଓଜନ"
+  },
+  "what_is_blood_group": "ଆପଣଙ୍କ ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+  "@what_is_blood_group": {
+    "description": "ରକ୍ତ ଗୋଷ୍ଠୀ"
+  },
+  "diagnosis": "ରୋଗ ନିର୍ଣ୍ଣୟ",
+  "@diagnosis": {
+    "description": "ରୋଗ ନିର୍ଣ୍ଣୟ"
+  },
+  "diagnosis_desc": "ବଟନ୍ ଦବାନ୍ତୁ ଏବଂ କଥା ହେବା ଆରମ୍ଭ କରନ୍ତୁ...",
+  "@diagnosis_desc": {
+    "description": "ରୋଗ ନିର୍ଣ୍ଣୟ ବର୍ଣ୍ଣନା"
+  },
+  "login_success": "ଲଗ୍ଇନ୍ ସଫଳ ହୋଇଛି",
+  "@login_success": {
+    "description": "ଲଗ୍ଇନ୍ ସଫଳ ହୋଇଛି"
+  },
+  "logged_out": "ଲଗ୍ ଆଉଟ୍ ସଫଳ ହୋଇଛି",
+  "@logged_out": {
+    "description": "ଲଗ୍ ଆଉଟ୍ ସଫଳ ହୋଇଛି"
+  },
+  "register_success": "ନାମ ଲେଖାନ୍ତୁ ସଫଳ ହୋଇଛି",
+  "@register_success": {
+    "description": "ନାମ ଲେଖାନ୍ତୁ ସଫଳ ହୋଇଛି"
+  },
+  "proflie_update_success": "ପ୍ରୋଫାଇଲ୍ ସଫଳତାର ସହିତ ଅପଡେଟ୍ ହୋଇଛି",
+  "@proflie_update_success": {
+    "description": "ପ୍ରୋଫାଇଲ୍ ସଫଳତାର ସହିତ ଅପଡେଟ୍ ହୋଇଛି"
+  },
+  "search_for_doctor": "ଡାକ୍ତରଙ୍କୁ ଖୋଜନ୍ତୁ...",
+  "@search_for_doctor": {
+    "description": "ଡାକ୍ତରଙ୍କୁ ଖୋଜନ୍ତୁ..."
+  },
+  "book_appointment": "ନିଯୁକ୍ତି ବୁକ୍ କରନ୍ତୁ",
+  "@book_appointment": {
+    "description": "ନିଯୁକ୍ତି ବୁକ୍ କରନ୍ତୁ"
+  },
+  "instant_vid_consultation": "ତତ୍କ୍ଷଣାତ୍ ଭିଡିଓ ପରାମର୍ଶ",
+  "@instant_vid_consultation": {
+    "description": "ତତ୍କ୍ଷଣାତ୍ ଭିଡିଓ ପରାମର୍ଶ"
+  },
+  "nearby_doctors": "ନିକଟବର୍ତ୍ତୀ ଡାକ୍ତର",
+  "@nearby_doctors": {
+    "description": "ନିକଟବର୍ତ୍ତୀ ଡାକ୍ତର"
+  },
+  "view_more_doctors": "ଅଧିକ ଡାକ୍ତରଙ୍କୁ ଦେଖନ୍ତୁ",
+  "@view_more_doctors": {
+    "description": "ଅଧିକ ଡାକ୍ତରଙ୍କୁ ଦେଖନ୍ତୁ"
+  },
+  "learn_more": "ଅଧିକ ଜାଣନ୍ତୁ",
+  "@learn_more": {
+    "description": "ଅଧିକ ଜାଣନ୍ତୁ"
+  },
+  "doctor_info": "ଡାକ୍ତରଙ୍କ ସୂଚନା",
+  "@doctor_info": {
+    "description": "ଡାକ୍ତରଙ୍କ ସୂଚନା"
+  },
+  "nearby_hospitals": "ନିକଟବର୍ତ୍ତୀ ହସ୍ପିଟାଲ୍",
+  "@nearby_hospitals": {
+    "description": "ନିକଟବର୍ତ୍ତୀ ହସ୍ପିଟାଲ୍"
+  },
+  "view_more_hospitals": "ଅଧିକ ହସ୍ପିଟାଲ୍ ଦେଖନ୍ତୁ",
+  "@view_more_hospitals": {
+    "description": "ଅଧିକ ହସ୍ପିଟାଲ୍ ଦେଖନ୍ତୁ"
+  },
+  "my_prescriptions": "ମୋର ପ୍ରେସକ୍ରିପସନ",
+  "@my_prescriptions": {
+    "description": "ମୋର ପ୍ରେସକ୍ରିପସନ"
+  },
+  "my_appointments": "ମୋର ନିଯୁକ୍ତି",
+  "@my_appointments": {
+    "description": "ମୋର ନିଯୁକ୍ତି"
+  },
+  "search_nearby_hospitals": "ନିକଟବର୍ତ୍ତୀ ହସ୍ପିଟାଲ୍ ଖୋଜନ୍ତୁ",
+  "@search_nearby_hospitals": {
+    "description": "ନିକଟବର୍ତ୍ତୀ ହସ୍ପିଟାଲ୍ ଖୋଜନ୍ତୁ"
+  },
+  "search_for_nearby_hospitals": "ନିକଟବର୍ତ୍ତୀ ହସ୍ପିଟାଲ୍ ଖୋଜନ୍ତୁ...",
+  "@search_for_nearby_hospitals": {
+    "description": "ନିକଟବର୍ତ୍ତୀ ହସ୍ପିଟାଲ୍ ଖୋଜନ୍ତୁ..."
+  },
+  "search_doctors": "ଡାକ୍ତରଙ୍କୁ ଖୋଜନ୍ତୁ",
+  "@search_doctors": {
+    "description": "ଡାକ୍ତରଙ୍କୁ ଖୋଜନ୍ତୁ"
+  },
+  "search_for_doctors": "ଡାକ୍ତରଙ୍କୁ ଖୋଜନ୍ତୁ...",
+  "@search_for_doctors": {
+    "description": "ଡାକ୍ତରଙ୍କୁ ଖୋଜନ୍ତୁ..."
+  },
+  "profile": "ପ୍ରୋଫାଇଲ୍",
+  "@profile": {
+    "description": "ପ୍ରୋଫାଇଲ୍"
+  },
+  "prescriptions": "ପ୍ରେସକ୍ରିପସନ",
+  "@prescriptions": {
+    "description": "ପ୍ରେସକ୍ରିପସନ"
+  },
+  "upload_prescription": "ପ୍ରେସକ୍ରିପସନ୍ ଅପଲୋଡ୍ କରନ୍ତୁ",
+  "@upload_prescription": {
+    "description": "ପ୍ରେସକ୍ରିପସନ୍ ଅପଲୋଡ୍ କରନ୍ତୁ"
+  },
+  "logout": "ଲଗ୍ ଆଉଟ୍",
+  "@logout": {
+    "description": "ଲଗ୍ ଆଉଟ୍"
+  },
+  "edit_profile": "ପ୍ରୋଫାଇଲ୍ ସମ୍ପାଦନ କରନ୍ତୁ",
+  "@edit_profile": {
+    "description": "ପ୍ରୋଫାଇଲ୍ ସମ୍ପାଦନ କରନ୍ତୁ"
+  },
+  "bio": "ଜୀବନୀ",
+  "@bio": {
+    "description": "ଜୀବନୀ"
+  },
+  "name": "ନାମ",
+  "@name": {
+    "description": "ନାମ"
+  },
+  "age": "ବୟସ",
+  "@age": {
+    "description": "ବୟସ"
+  },
+  "gender": "ଲିଙ୍ଗ",
+  "@gender": {
+    "description": "ଲିଙ୍ଗ"
+  },
+  "height": "ଉଚ୍ଚତା",
+  "@height": {
+    "description": "ଉଚ୍ଚତା"
+  },
+  "weight": "ଓଜନ",
+  "@weight": {
+    "description": "ଓଜନ"
+  },
+  "blood_group": "ରକ୍ତ ଗୋଷ୍ଠୀ",
+  "@blood_group": {
+    "description": "ରକ୍ତ ଗୋଷ୍ଠୀ"
+  },
+  "phone": "ଫୋନ୍",
+  "@phone": {
+    "description": "ଫୋନ୍"
+  },
+  "email": "ଇମେଲ୍",
+  "@email": {
+    "description": "ଇମେଲ୍"
+  },
+  "location": "ସ୍ଥାନ",
+  "@location": {
+    "description": "ସ୍ଥାନ"
+  },
+  "save": "ସଞ୍ଚୟ କରନ୍ତୁ",
+  "@save": {
+    "description": "ସଞ୍ଚୟ କରନ୍ତୁ"
+  }
+}

@@ -1,327 +1,233 @@
-import 'dart:convert';
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:geocoding/geocoding.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:go_router/go_router.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:reach_out_rural/app/bloc/app_bloc.dart';
 import 'package:reach_out_rural/constants/constants.dart';
-import 'package:reach_out_rural/repository/api/api_repository.dart';
-import 'package:reach_out_rural/repository/storage/storage_repository.dart';
+import 'package:reach_out_rural/repository/auth/bloc/auth_bloc.dart';
+import 'package:reach_out_rural/repository/user/user_patient_repository.dart';
+import 'package:reach_out_rural/screens/chatbot/cubit/chat_cubit.dart';
+import 'package:reach_out_rural/screens/dashboard/cubit/dashboard_cubit.dart';
+import 'package:reach_out_rural/screens/home/cubit/home_cubit.dart';
+import '../../services/api/api_service.dart';
+import '../../../repository/storage/storage_repository.dart';
 import 'package:reach_out_rural/screens/chatbot/chat_bot_screen.dart';
 import 'package:reach_out_rural/screens/community/community_screen.dart';
 import 'package:reach_out_rural/screens/dashboard/dashboard_screen.dart';
 import 'package:reach_out_rural/screens/scanner/scanner_screen.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
-import 'package:reach_out_rural/utils/toast.dart';
 import 'package:reach_out_rural/widgets/custom_bottom_navbar.dart';
-import 'package:speech_to_text/speech_recognition_result.dart';
-import 'package:speech_to_text/speech_to_text.dart';
 
-const List<Widget> _screens = <Widget>[
-  DashboardScreen(),
-  ChatBotScreen(),
-  ScannerScreen(),
-  CommunityScreen()
-];
-
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  final toaster = ToastHelper();
-  final api = ApiRepository();
-  int _currentIndex = 0;
-  bool _isListening = false;
-  late SpeechToText _speechToText;
-  String _text = '';
-
-  void _requestPermission() async {
-    Map<Permission, PermissionStatus> statuses = await [
-      Permission.microphone,
-      Permission.camera,
-      Permission.location,
-      Permission.locationWhenInUse,
-      Permission.photos,
-      Permission.storage,
-      Permission.manageExternalStorage,
-    ].request();
-    LocationPermission permission = await Geolocator.checkPermission();
-
-    if (statuses[Permission.microphone]!.isDenied) {
-      final req = await Permission.microphone.request();
-      if (req.isPermanentlyDenied) {
-        await openAppSettings();
-      }
-    }
-
-    if (statuses[Permission.camera]!.isDenied) {
-      final req = await Permission.camera.request();
-      if (req.isPermanentlyDenied) {
-        await openAppSettings();
-      }
-    }
-
-    if (statuses[Permission.location]!.isDenied) {
-      final req = await Permission.location.request();
-      if (req.isPermanentlyDenied) {
-        await openAppSettings();
-      }
-    }
-
-    if (permission == LocationPermission.denied) {
-      final req = await Geolocator.requestPermission();
-      if (req == LocationPermission.deniedForever) {
-        await openAppSettings();
-      }
-    }
-    if (statuses[Permission.locationWhenInUse]!.isDenied) {
-      final req = await Permission.locationWhenInUse.request();
-      if (req.isPermanentlyDenied) {
-        await openAppSettings();
-      }
-    }
-
-    if (statuses[Permission.photos]!.isDenied) {
-      final req = await Permission.photos.request();
-      if (req.isPermanentlyDenied) {
-        await openAppSettings();
-      }
-    }
-
-    if (statuses[Permission.storage]!.isDenied) {
-      final req = await Permission.storage.request();
-      if (req.isPermanentlyDenied) {
-        await openAppSettings();
-      }
-    }
-
-    if (statuses[Permission.manageExternalStorage]!.isDenied) {
-      final req = await Permission.manageExternalStorage.request();
-      if (req.isPermanentlyDenied) {
-        await openAppSettings();
-      }
-    }
-
-    log(statuses.toString());
-  }
-
-  // void logUserDetails() async {
-  //   final SharedPreferencesHelper prefs = SharedPreferencesHelper();
-  //   final int? age = await prefs.getString("age");
-  //   final String? gender = await prefs.getString("gender");
-  //   final String? height = await prefs.getString("height");
-  //   final String? weight = await prefs.getString("weight");
-  //   final String? phoneNumber = await prefs.getString("phoneNumber");
-  //   final String? bloodGroup = await prefs.getString("bloodGroup");
-  //   final String? bloodGroupType = await prefs.getString("bloodGroupType");
-  //   final String? token = await prefs.getString("token");
-  //   log("User Details: $age");
-  //   log("User Details: $gender");
-  //   log("User Details: $height");
-  //   log("User Details: $weight");
-  //   log("User Details: $phoneNumber");
-  //   log("User Details: $bloodGroup");
-  //   log("User Details: $bloodGroupType");
-  //   log("User Details: $token");
-  // }
-
-  Future<Position> _determinePosition() async {
-    bool serviceEnabled;
-    LocationPermission permission;
-
-    serviceEnabled = await Geolocator.isLocationServiceEnabled();
-    if (!serviceEnabled) {
-      return Future.error('Location services are disabled. Please enable it.');
-    }
-
-    permission = await Geolocator.checkPermission();
-    if (permission == LocationPermission.denied) {
-      permission = await Geolocator.requestPermission();
-      if (permission == LocationPermission.denied) {
-        return Future.error(
-            'Location permissions are denied. Please enable it.');
-      }
-    }
-
-    if (permission == LocationPermission.deniedForever) {
-      return Future.error(
-          'Location permissions are permanently denied, we cannot request permissions. Please enable it.');
-    }
-
-    const LocationSettings locationSettings = LocationSettings(
-      accuracy: LocationAccuracy.high,
-      distanceFilter: 100,
-    );
-
-    return await Geolocator.getCurrentPosition(
-        locationSettings: locationSettings);
-  }
-
-  void logLocation() async {
-    try {
-      final Position position = await _determinePosition();
-      log("Location: ${position.latitude}, ${position.longitude}");
-      final SharedPreferencesHelper prefs = SharedPreferencesHelper();
-      List<Placemark> placemarks =
-          await placemarkFromCoordinates(position.latitude, position.longitude);
-      // log("Placemarks: $placemarks");
-      Placemark place = placemarks[0];
-      log("Place: ${place.name}");
-      prefs.setString("latitude", position.latitude.toString());
-      prefs.setString("longitude", position.longitude.toString());
-      prefs.setString("location", jsonEncode(place.toJson()));
-      final phoneNumber = await prefs.getString("phoneNumber");
-      Map<String, dynamic> data = {
-        'latitude': position.latitude,
-        'longitude': position.longitude,
-        'phonenumber': phoneNumber,
-      };
-      log("Data: $data");
-      // final res = await api.checkNavigation(data);
-      // log("Response: $res");
-    } catch (e) {
-      log("Error: $e");
-      toaster.showToast("Error: $e");
-    }
-  }
-
-  @override
-  void initState() {
-    // logUserDetails();
-    _requestPermission();
-    logLocation();
-    super.initState();
-    _speechToText = SpeechToText();
-  }
-
-  // @override
-  // void didChangeDependencies() {
-  //   logLocation();
-  //   super.didChangeDependencies();
-  // }
-
-  Future<void> _captureVoice() async {
-    if (!_isListening) {
-      bool available = await _speechToText.initialize();
-      if (available) {
-        setState(() {
-          _isListening = true;
-        });
-        await _speechToText.listen(
-            onResult: _onSpeechResult,
-            pauseFor: const Duration(seconds: 5),
-            listenFor: const Duration(seconds: 10),
-            listenOptions: SpeechListenOptions(
-              enableHapticFeedback: true,
-            ));
-      }
-    } else {
-      setState(() {
-        _isListening = false;
-        _text = '';
-      });
-      await _speechToText.stop();
-    }
-  }
-
-  void _onSpeechResult(SpeechRecognitionResult result) {
-    final command = result.recognizedWords.toLowerCase();
-    setState(() {
-      _text = command;
-    });
-    log(command);
-    if (command.contains('home')) {
-      setState(() {
-        _currentIndex = 0; // Navigate to DashboardScreen
-      });
-    } else if (command.contains('chat')) {
-      setState(() {
-        _currentIndex = 1; // Navigate to ChatBotScreen
-      });
-    } else if (command.contains('scan') || command.contains('wound')) {
-      setState(() {
-        _currentIndex = 2; // Navigate to ScannerPage
-      });
-    } else if (command.contains('community')) {
-      setState(() {
-        _currentIndex = 3; // Navigate to PrescriptionPage
-      });
-    } else if (command.contains('profile')) {
-      context.push("/profile");
-    } else if (command.contains('prescription')) {
-      context.push("/prescription");
-    } else if (command.contains('stop')) {
-      setState(() {
-        _isListening = false;
-        _text = '';
-      });
-      _speechToText.stop();
-    }
-  }
-
-  void _onPressed(int index) {
-    setState(() {
-      _currentIndex = index;
-    });
-  }
-
-  @override
-  void dispose() {
-    _speechToText.cancel();
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
     SizeConfig.init(context);
-    toaster.init(context);
-    return Scaffold(
-      body: Stack(
-        children: [
-          _screens[_currentIndex],
-          if (_text.isNotEmpty)
-            Positioned(
-              bottom: 45,
-              left: 0,
-              right: 0,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Column(
-                  mainAxisSize:
-                      MainAxisSize.min, // This makes sure it stays compact
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        color: kWhiteColor,
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: Text(_text,
-                          style: TextStyle(
-                              color: kBlackColor,
-                              fontSize:
-                                  SizeConfig.getProportionateTextSize(20))),
-                    ),
-                  ],
-                ),
-              ),
-            )
-          else
-            const SizedBox.shrink(),
-        ],
-      ),
-      bottomNavigationBar: CustomBottomNavbar(
-        isListening: _isListening,
-        currentIndex: _currentIndex,
-        onPressed: _onPressed,
-        onCaptureVoice: _captureVoice,
+
+    return BlocProvider(
+      create: (context) => HomeCubit(
+        apiService: context.read<ApiService>(),
+        storageRepository: context.read<StorageRepository>(),
+        userPatientRepository: context.read<UserPatientRepository>(),
+        authBloc: context.read<AuthBloc>(),
+      )..initializeApp(),
+      child: BlocConsumer<HomeCubit, HomeState>(
+        listenWhen: (previous, current) =>
+            (current.nextPath != null &&
+                current.nextPath != previous.nextPath) ||
+            (current.locale != null && current.locale != previous.locale) ||
+            current.permissionEvent != previous.permissionEvent,
+        listener: (context, state) {
+          if (state.permissionEvent is ShowPermissionDeniedDialog) {
+            final event = state.permissionEvent as ShowPermissionDeniedDialog;
+            showPermanentlyDeniedDialog(
+                context, event.permissionName, event.permissionType);
+            context.read<HomeCubit>().clearPermissionEvent();
+          }
+          if (state.permissionEvent != null) {
+            _showPermissionDialog(context, state.permissionEvent!, () async {
+              if (state is ShowLocationServiceDisabledDialog) {
+                await Geolocator.openLocationSettings();
+              } else {
+                await openAppSettings();
+              }
+              if (!context.mounted) return;
+              context.read<HomeCubit>().retryLocationInitialization();
+            }, () {
+              context.read<HomeCubit>().retryLocationInitialization();
+            });
+          }
+
+          if (state.nextPath != null && state.nextPath!.isNotEmpty) {
+            GoRouter.of(context).push(state.nextPath!);
+          }
+
+          if (state.locale != null) {
+            context.read<AppBloc>().add(LanguageChanged(locale: state.locale!));
+          }
+        },
+        builder: (context, state) {
+          return Scaffold(
+            body: Stack(
+              children: [
+                _buildCurrentScreen(context, state.currentIndex),
+                if (state.recognizedText.isNotEmpty)
+                  _buildRecognizedTextOverlay(state.recognizedText),
+              ],
+            ),
+            bottomNavigationBar: CustomBottomNavbar(
+              isListening: state.isListening,
+              currentIndex: state.currentIndex,
+              onPressed: (index) =>
+                  context.read<HomeCubit>().changeIndex(index),
+              onCaptureVoice: () => context.read<HomeCubit>().toggleListening(),
+            ),
+          );
+        },
       ),
     );
+  }
+
+  Widget _buildCurrentScreen(BuildContext context, int index) {
+    final List<Widget> screens = [
+      BlocProvider(
+        create: (context) => DashboardCubit(
+          apiService: context.read<ApiService>(),
+          storageRepository: context.read<StorageRepository>(),
+          userPatientRepository: context.read<UserPatientRepository>(),
+        )..loadDashboardData(),
+        child: const DashboardScreen(),
+      ),
+      BlocProvider(
+        create: (context) => ChatCubit(
+            homeCubit: context.read<HomeCubit>(),
+            api: context.read<ApiService>(),
+            storageRepository: context.read<StorageRepository>(),
+            userPatientRepository: context.read<UserPatientRepository>())
+          ..init(),
+        child: const ChatBotScreen(),
+      ),
+      const ScannerScreen(),
+      const CommunityScreen(),
+    ];
+    return screens[index];
+  }
+
+  Widget _buildRecognizedTextOverlay(String text) {
+    return Positioned(
+      bottom: 45,
+      left: 0,
+      right: 0,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: kWhiteColor,
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Text(text,
+                  style: TextStyle(
+                      color: kBlackColor,
+                      fontSize: SizeConfig.getProportionateTextSize(20))),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void showPermanentlyDeniedDialog(BuildContext context, String permissionName,
+      Permission permissionType) async {
+    final req = await permissionType.request();
+    if (req.isPermanentlyDenied) {
+      await openAppSettings();
+      return;
+    }
+    if (!context.mounted) return;
+    return showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('Permission Denied'),
+          content: Text(
+            'Please allow $permissionName permission to continue using the app.',
+          ),
+          actions: <Widget>[
+            TextButton(
+              onPressed: () async {
+                final req = await permissionType.request();
+                if (req.isPermanentlyDenied) {
+                  await openAppSettings();
+                  return;
+                }
+                if (!context.mounted) return;
+                context.pop();
+              },
+              child: const Text('OK'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showPermissionDialog(BuildContext context, PermissionEvent event,
+      VoidCallback onRetry, VoidCallback onSettings) {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return PopScope(
+          canPop: false,
+          child: AlertDialog(
+            title: Text(_getDialogTitle(event)),
+            content: Text(_getDialogContent(event)),
+            actions: <Widget>[
+              TextButton(
+                onPressed: onSettings,
+                child: const Text('Settings'),
+              ),
+              TextButton(
+                onPressed: onRetry,
+                child: const Text('Retry'),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  String _getDialogTitle(PermissionEvent event) {
+    if (event is ShowLocationServiceDisabledDialog) {
+      return 'Location Services Disabled';
+    } else if (event is ShowLocationPermissionDeniedDialog) {
+      return 'Location Permission Denied';
+    } else if (event is ShowLocationPermissionPermanentlyDeniedDialog) {
+      return 'Location Permission Permanently Denied';
+    } else if (event is ShowLocationErrorDialog) {
+      return 'Location Error';
+    }
+    return 'Permission Required';
+  }
+
+  String _getDialogContent(PermissionEvent event) {
+    if (event is ShowLocationServiceDisabledDialog) {
+      return 'Please enable location services to use this feature.';
+    } else if (event is ShowLocationPermissionDeniedDialog) {
+      return 'This app needs location permission to function properly. Please grant the permission.';
+    } else if (event is ShowLocationPermissionPermanentlyDeniedDialog) {
+      return 'Location permission is permanently denied. Please enable it in app settings.';
+    } else if (event is ShowLocationErrorDialog) {
+      return 'An error occurred while accessing your location: ${event.error}';
+    }
+    return 'This app needs certain permissions to function properly.';
   }
 }

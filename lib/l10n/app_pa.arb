@@ -1,0 +1,243 @@
+{
+  "@@locale": "pa",
+  "continue_text": "ਜਾਰੀ ਰੱਖੋ",
+  "@continue_text": {
+    "description": "ਜਾਰੀ ਰੱਖੋ ਬਟਨ"
+  },
+  "get_started": "ਸ਼ੁਰੂਆਤ ਕਰੋ",
+  "@get_started": {
+    "description": "ਸ਼ੁਰੂਆਤ ਕਰੋ ਬਟਨ"
+  },
+  "login": "ਲੌਗਇਨ ਕਰੋ",
+  "@login": {
+    "description": "ਲੌਗਇਨ ਕਰੋ ਬਟਨ"
+  },
+  "login_desc": "ਆਓ ਟੈਲੀਕੇਅਰ AI ਦਾ ਅਨੰਦ ਮਾਣੀਏ।",
+  "@login_desc": {
+    "description": "ਲੌਗਇਨ ਵੇਰਵਾ"
+  },
+  "phone_number": "ਫ਼ੋਨ ਨੰਬਰ",
+  "@phone_number": {
+    "description": "ਫ਼ੋਨ ਨੰਬਰ"
+  },
+  "register": "ਰਜਿਸਟਰ ਕਰੋ",
+  "@register": {
+    "description": "ਰਜਿਸਟਰ ਕਰੋ ਬਟਨ"
+  },
+  "register_desc": "ਆਓ ਟੈਲੀਕੇਅਰ AI ਦਾ ਅਨੰਦ ਮਾਣੀਏ।",
+  "@register_desc": {
+    "description": "ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਵੇਰਵਾ"
+  },
+  "dont_have_account": "ਖਾਤਾ ਨਹੀਂ ਹੈ?",
+  "@dont_have_account": {
+    "description": "ਖਾਤਾ ਨਹੀਂ ਹੈ?"
+  },
+  "have_account": "ਪਹਿਲਾਂ ਹੀ ਖਾਤਾ ਹੈ?",
+  "@have_account": {
+    "description": "ਪਹਿਲਾਂ ਹੀ ਖਾਤਾ ਹੈ?"
+  },
+  "need_help": "ਮਦਦ ਦੀ ਲੋੜ ਹੈ?",
+  "@need_help": {
+    "description": "ਮਦਦ ਦੀ ਲੋੜ ਹੈ?"
+  },
+  "invalid_phone_number": "ਗ਼ਲਤ ਮੋਬਾਈਲ ਨੰਬਰ",
+  "@invalid_phone_number": {
+    "description": "ਗ਼ਲਤ ਮੋਬਾਈਲ ਨੰਬਰ"
+  },
+  "otp_verification": "OTP ਪ੍ਰਮਾਣੀਕਰਨ",
+  "@otp_verification": {
+    "description": "OTP ਪ੍ਰਮਾਣੀਕਰਨ"
+  },
+  "otp_verification_desc": "ਅਸੀਂ ਤੁਹਾਡਾ ਕੋਡ ਭੇਜਿਆ ਹੈ ",
+  "@otp_verification_desc": {
+    "description": "OTP ਪ੍ਰਮਾਣੀਕਰਨ ਵੇਰਵਾ"
+  },
+  "otp_expire": "ਇਹ ਕੋਡ  ਵਿੱਚ ਖਤਮ ਹੋ ਜਾਵੇਗਾ",
+  "@otp_expire": {
+    "description": "OTP ਦੀ ਮਿਆਦ ਪੁੱਗਣਾ"
+  },
+  "resend_otp": "OTP ਕੋਡ ਦੁਬਾਰਾ ਭੇਜੋ",
+  "@resend_otp": {
+    "description": "OTP ਕੋਡ ਦੁਬਾਰਾ ਭੇਜੋ"
+  },
+  "what_is_gender": "ਤੁਹਾਡਾ ਲਿੰਗ ਕੀ ਹੈ?",
+  "@what_is_gender": {
+    "description": "ਲਿੰਗ"
+  },
+  "what_is_age": "ਤੁਹਾਡੀ ਉਮਰ ਕੀ ਹੈ?",
+  "@what_is_age": {
+    "description": "ਉਮਰ"
+  },
+  "male": "ਮਰਦ",
+  "@male": {
+    "description": "ਮਰਦ"
+  },
+  "female": "ਔਰਤ",
+  "@female": {
+    "description": "ਔਰਤ"
+  },
+  "other": "ਹੋਰ",
+  "@other": {
+    "description": "ਹੋਰ"
+  },
+  "what_is_height": "ਤੁਹਾਡੀ ਉਚਾਈ ਕੀ ਹੈ?",
+  "@what_is_height": {
+    "description": "ਉਚਾਈ"
+  },
+  "what_is_weight": "ਤੁਹਾਡਾ ਭਾਰ ਕੀ ਹੈ?",
+  "@what_is_weight": {
+    "description": "ਭਾਰ"
+  },
+  "what_is_blood_group": "ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+  "@what_is_blood_group": {
+    "description": "ਬਲੱਡ ਗਰੁੱਪ"
+  },
+  "diagnosis": "ਨਿਦਾਨ",
+  "@diagnosis": {
+    "description": "ਨਿਦਾਨ"
+  },
+  "diagnosis_desc": "ਬਟਨ ਦਬਾਓ ਅਤੇ ਬੋਲਣਾ ਸ਼ੁਰੂ ਕਰੋ...",
+  "@diagnosis_desc": {
+    "description": "ਨਿਦਾਨ ਵੇਰਵਾ"
+  },
+  "login_success": "ਸਫਲਤਾਪੂਰਵਕ ਲੌਗਇਨ ਕੀਤਾ ਗਿਆ",
+  "@login_success": {
+    "description": "ਸਫਲਤਾਪੂਰਵਕ ਲੌਗਇਨ ਕੀਤਾ ਗਿਆ"
+  },
+  "logged_out": "ਸਫਲਤਾਪੂਰਵਕ ਲੌਗਆਊਟ ਕੀਤਾ ਗਿਆ",
+  "@logged_out": {
+    "description": "ਸਫਲਤਾਪੂਰਵਕ ਲੌਗਆਊਟ ਕੀਤਾ ਗਿਆ"
+  },
+  "register_success": "ਸਫਲਤਾਪੂਰਵਕ ਰਜਿਸਟਰ ਕੀਤਾ ਗਿਆ",
+  "@register_success": {
+    "description": "ਸਫਲਤਾਪੂਰਵਕ ਰਜਿਸਟਰ ਕੀਤਾ ਗਿਆ"
+  },
+  "proflie_update_success": "ਪ੍ਰੋਫਾਈਲ ਸਫਲਤਾਪੂਰਵਕ ਅਪਡੇਟ ਕੀਤੀ ਗਈ",
+  "@proflie_update_success": {
+    "description": "ਪ੍ਰੋਫਾਈਲ ਸਫਲਤਾਪੂਰਵਕ ਅਪਡੇਟ ਕੀਤੀ ਗਈ"
+  },
+  "search_for_doctor": "ਡਾਕਟਰਾਂ ਦੀ ਭਾਲ ਕਰੋ...",
+  "@search_for_doctor": {
+    "description": "ਡਾਕਟਰਾਂ ਦੀ ਭਾਲ ਕਰੋ..."
+  },
+  "book_appointment": "ਮੁਲਾਕਾਤ ਬੁੱਕ ਕਰੋ",
+  "@book_appointment": {
+    "description": "ਮੁਲਾਕਾਤ ਬੁੱਕ ਕਰੋ"
+  },
+  "instant_vid_consultation": "ਤੁਰੰਤ ਵੀਡੀਓ ਸਲਾਹ-ਮਸ਼ਵਰਾ",
+  "@instant_vid_consultation": {
+    "description": "ਤੁਰੰਤ ਵੀਡੀਓ ਸਲਾਹ-ਮਸ਼ਵਰਾ"
+  },
+  "nearby_doctors": "ਨੇੜਲੇ ਡਾਕਟਰ",
+  "@nearby_doctors": {
+    "description": "ਨੇੜਲੇ ਡਾਕਟਰ"
+  },
+  "view_more_doctors": "ਹੋਰ ਡਾਕਟਰ ਵੇਖੋ",
+  "@view_more_doctors": {
+    "description": "ਹੋਰ ਡਾਕਟਰ ਵੇਖੋ"
+  },
+  "learn_more": "ਹੋਰ ਜਾਣੋ",
+  "@learn_more": {
+    "description": "ਹੋਰ ਜਾਣੋ"
+  },
+  "doctor_info": "ਡਾਕਟਰ ਦੀ ਜਾਣਕਾਰੀ",
+  "@doctor_info": {
+    "description": "ਡਾਕਟਰ ਦੀ ਜਾਣਕਾਰੀ"
+  },
+  "nearby_hospitals": "ਨੇੜੇ ਹਸਪਤਾਲ",
+  "@nearby_hospitals": {
+    "description": "ਨੇੜੇ ਹਸਪਤਾਲ"
+  },
+  "view_more_hospitals": "ਹੋਰ ਹਸਪਤਾਲ ਵੇਖੋ",
+  "@view_more_hospitals": {
+    "description": "ਹੋਰ ਹਸਪਤਾਲ ਵੇਖੋ"
+  },
+  "my_prescriptions": "ਮੇਰੀ ਦਵਾਈਆਂ ਦੀਆਂ ਪ੍ਰੈਸਕ੍ਰਿਪਸ਼ਨਾਂ",
+  "@my_prescriptions": {
+    "description": "ਮੇਰੀ ਦਵਾਈਆਂ ਦੀਆਂ ਪ੍ਰੈਸਕ੍ਰਿਪਸ਼ਨਾਂ"
+  },
+  "my_appointments": "ਮੇਰੀ ਮੁਲਾਕਾਤਾਂ",
+  "@my_appointments": {
+    "description": "ਮੇਰੀ ਮੁਲਾਕਾਤਾਂ"
+  },
+  "upload_prescription": "ਪ੍ਰੈਸਕ੍ਰਿਪਸ਼ਨ ਅਪਲੋਡ ਕਰੋ",
+  "@upload_prescription": {
+    "description": "ਪ੍ਰੈਸਕ੍ਰਿਪਸ਼ਨ ਅਪਲੋਡ ਕਰੋ"
+  },
+  "search_nearby_hospitals": "ਨੇੜਲੇ ਹਸਪਤਾਲਾਂ ਦੀ ਭਾਲ ਕਰੋ",
+  "@search_nearby_hospitals": {
+    "description": "ਨੇੜਲੇ ਹਸਪਤਾਲਾਂ ਦੀ ਭਾਲ ਕਰੋ"
+  },
+  "search_for_nearby_hospitals": "ਨੇੜਲੇ ਹਸਪਤਾਲਾਂ ਦੀ ਭਾਲ ਕਰੋ...",
+  "@search_for_nearby_hospitals": {
+    "description": "ਨੇੜਲੇ ਹਸਪਤਾਲਾਂ ਦੀ ਭਾਲ ਕਰੋ..."
+  },
+  "search_doctors": "ਡਾਕਟਰਾਂ ਦੀ ਭਾਲ ਕਰੋ",
+  "@search_doctors": {
+    "description": "ਡਾਕਟਰਾਂ ਦੀ ਭਾਲ ਕਰੋ"
+  },
+  "search_for_doctors": "ਡਾਕਟਰਾਂ ਦੀ ਭਾਲ ਕਰੋ...",
+  "@search_for_doctors": {
+    "description": "ਡਾਕਟਰਾਂ ਦੀ ਭਾਲ ਕਰੋ..."
+  },
+  "profile": "ਪ੍ਰੋਫਾਈਲ",
+  "@profile": {
+    "description": "ਪ੍ਰੋਫਾਈਲ"
+  },
+  "prescriptions": "ਨੁਸਖ਼ੇ",
+  "@prescriptions": {
+    "description": "ਨੁਸਖ਼ੇ"
+  },
+  "logout": "ਲੌਗ ਆਉਟ ਕਰੋ",
+  "@logout": {
+    "description": "ਲੌਗ ਆਉਟ ਕਰੋ"
+  },
+  "edit_profile": "ਪ੍ਰੋਫਾਈਲ ਸੰਪਾਦਿਤ ਕਰੋ",
+  "@edit_profile": {
+    "description": "ਪ੍ਰੋਫਾਈਲ ਸੰਪਾਦਿਤ ਕਰੋ"
+  },
+  "bio": "ਜੀਵਨੀ",
+  "@bio": {
+    "description": "ਜੀਵਨੀ"
+  },
+  "name": "ਨਾਮ",
+  "@name": {
+    "description": "ਨਾਮ"
+  },
+  "age": "ਉਮਰ",
+  "@age": {
+    "description": "ਉਮਰ"
+  },
+  "gender": "ਲਿੰਗ",
+  "@gender": {
+    "description": "ਲਿੰਗ"
+  },
+  "height": "ਉਚਾਈ",
+  "@height": {
+    "description": "ਉਚਾਈ"
+  },
+  "weight": "ਭਾਰ",
+  "@weight": {
+    "description": "ਭਾਰ"
+  },
+  "blood_group": "ਬਲੱਡ ਗਰੁੱਪ",
+  "@blood_group": {
+    "description": "ਬਲੱਡ ਗਰੁੱਪ"
+  },
+  "phone": "ਫ਼ੋਨ",
+  "@phone": {
+    "description": "ਫ਼ੋਨ"
+  },
+  "email": "ਈਮੇਲ",
+  "@email": {
+    "description": "ਈਮੇਲ"
+  },
+  "location": "ਸਥਾਨ",
+  "@location": {
+    "description": "ਸਥਾਨ"
+  },
+  "save": "ਸੇਵ ਕਰੋ",
+  "@save": {
+    "description": "ਸੇਵ ਕਰੋ"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "@@locale": "es",
+  "continue_text": "Continuar",
+  "@continue_text": {
+    "description": "Botón Continuar"
+  },
+  "get_started": "Empezar",
+  "@get_started": {
+    "description": "Botón Empezar"
+  },
+  "login": "Iniciar sesión",
+  "@login": {
+    "description": "Botón Iniciar sesión"
+  },
+  "login_desc": "Experimenta la alegría de Reach Out Rural.",
+  "@login_desc": {
+    "description": "Descripción de inicio de sesión"
+  },
+  "phone_number": "Número de teléfono",
+  "@phone_number": {
+    "description": "Número de teléfono"
+  },
+  "register": "Registrarse",
+  "@register": {
+    "description": "Botón Registrarse"
+  },
+  "register_desc": "Experimenta la alegría de Reach Out Rural.",
+  "@register_desc": {
+    "description": "Descripción de registro"
+  },
+  "dont_have_account": "¿No tienes una cuenta? ",
+  "@dont_have_account": {
+    "description": "¿No tienes una cuenta? "
+  },
+  "have_account": "¿Ya tienes una cuenta? ",
+  "@have_account": {
+    "description": "¿Ya tienes una cuenta? "
+  },
+  "need_help": "¿Necesitas ayuda?",
+  "@need_help": {
+    "description": "¿Necesitas ayuda?"
+  },
+  "invalid_phone_number": "Número de móvil inválido",
+  "@invalid_phone_number": {
+    "description": "Número de móvil inválido"
+  },
+  "otp_verification": "Verificación OTP",
+  "@otp_verification": {
+    "description": "Verificación OTP"
+  },
+  "otp_verification_desc": "Hemos enviado tu código a ",
+  "@otp_verification_desc": {
+    "description": "Descripción de verificación OTP"
+  },
+  "otp_expire": "Este código expirará en ",
+  "@otp_expire": {
+    "description": "Expiración OTP"
+  },
+  "resend_otp": "Reenviar código OTP",
+  "@resend_otp": {
+    "description": "Reenviar código OTP"
+  },
+  "what_is_gender": "¿Cuál es tu género?",
+  "@what_is_gender": {
+    "description": "Género"
+  },
+  "what_is_age": "¿Cuál es tu edad?",
+  "@what_is_age": {
+    "description": "Edad"
+  },
+  "male": "Masculino",
+  "@male": {
+    "description": "Masculino"
+  },
+  "female": "Femenino",
+  "@female": {
+    "description": "Femenino"
+  },
+  "other": "Otro",
+  "@other": {
+    "description": "Otro"
+  },
+  "what_is_height": "¿Cuál es tu altura?",
+  "@what_is_height": {
+    "description": "Altura"
+  },
+  "what_is_weight": "¿Cuál es tu peso?",
+  "@what_is_weight": {
+    "description": "Peso"
+  },
+  "what_is_blood_group": "¿Cuál es tu grupo sanguíneo?",
+  "@what_is_blood_group": {
+    "description": "Grupo sanguíneo"
+  },
+  "diagnosis": "Diagnóstico",
+  "@diagnosis": {
+    "description": "Diagnóstico"
+  },
+  "diagnosis_desc": "Pulsa el botón y empieza a hablar...",
+  "@diagnosis_desc": {
+    "description": "Descripción del diagnóstico"
+  },
+  "login_success": "Inicio de sesión exitoso",
+  "@login_success": {
+    "description": "Inicio de sesión exitoso"
+  },
+  "logged_out": "Cierre de sesión exitoso",
+  "@logged_out": {
+    "description": "Cierre de sesión exitoso"
+  },
+  "register_success": "Registro exitoso",
+  "@register_success": {
+    "description": "Registro exitoso"
+  },
+  "proflie_update_success": "Perfil actualizado correctamente",
+  "@proflie_update_success": {
+    "description": "Perfil actualizado correctamente"
+  },
+  "search_for_doctor": "Buscar médicos...",
+  "@search_for_doctor": {
+    "description": "Buscar médicos..."
+  },
+  "book_appointment": "Reservar citas",
+  "@book_appointment": {
+    "description": "Reservar citas"
+  },
+  "instant_vid_consultation": "Consulta de video instantánea",
+  "@instant_vid_consultation": {
+    "description": "Consulta de video instantánea"
+  },
+  "nearby_doctors": "Médicos cercanos",
+  "@nearby_doctors": {
+    "description": "Médicos cercanos"
+  },
+  "view_more_doctors": "Ver más médicos",
+  "@view_more_doctors": {
+    "description": "Ver más médicos"
+  },
+  "learn_more": "Más información",
+  "@learn_more": {
+    "description": "Más información"
+  },
+  "doctor_info": "Información del doctor",
+  "@doctor_info": {
+    "description": "Información del doctor"
+  },
+  "nearby_hospitals": "Hospitales cercanos",
+  "@nearby_hospitals": {
+    "description": "Hospitales cercanos"
+  },
+  "view_more_hospitals": "Ver más hospitales",
+  "@view_more_hospitals": {
+    "description": "Ver más hospitales"
+  },
+  "my_prescriptions": "Mis recetas",
+  "@my_prescriptions": {
+    "description": "Mis recetas"
+  },
+  "my_appointments": "Mis citas",
+  "@my_appointments": {
+    "description": "Mis citas"
+  },
+  "search_nearby_hospitals": "Buscar hospitales cercanos",
+  "@search_nearby_hospitals": {
+    "description": "Buscar hospitales cercanos"
+  },
+  "search_for_nearby_hospitals": "Buscar hospitales cercanos...",
+  "@search_for_nearby_hospitals": {
+    "description": "Buscar hospitales cercanos..."
+  },
+  "search_doctors": "Buscar médicos",
+  "@search_doctors": {
+    "description": "Buscar médicos"
+  },
+  "search_for_doctors": "Buscar médicos...",
+  "@search_for_doctors": {
+    "description": "Buscar médicos..."
+  },
+  "profile": "Perfil",
+  "@profile": {
+    "description": "Perfil"
+  },
+  "prescriptions": "Recetas",
+  "@prescriptions": {
+    "description": "Recetas"
+  },
+  "upload_prescription": "Subir receta",
+  "@upload_prescription": {
+    "description": "Subir receta"
+  },
+  "logout": "Cerrar sesión",
+  "@logout": {
+    "description": "Cerrar sesión"
+  },
+  "edit_profile": "Editar perfil",
+  "@edit_profile": {
+    "description": "Editar perfil"
+  },
+  "bio": "Biografía",
+  "@bio": {
+    "description": "Biografía"
+  },
+  "name": "Nombre",
+  "@name": {
+    "description": "Nombre"
+  },
+  "age": "Edad",
+  "@age": {
+    "description": "Edad"
+  },
+  "gender": "Género",
+  "@gender": {
+    "description": "Género"
+  },
+  "height": "Altura",
+  "@height": {
+    "description": "Altura"
+  },
+  "weight": "Peso",
+  "@weight": {
+    "description": "Peso"
+  },
+  "blood_group": "Grupo sanguíneo",
+  "@blood_group": {
+    "description": "Grupo sanguíneo"
+  },
+  "phone": "Teléfono",
+  "@phone": {
+    "description": "Teléfono"
+  },
+  "email": "Correo electrónico",
+  "@email": {
+    "description": "Correo electrónico"
+  },
+  "location": "Ubicación",
+  "@location": {
+    "description": "Ubicación"
+  },
+  "save": "Guardar",
+  "@save": {
+    "description": "Guardar"
+  }
+}

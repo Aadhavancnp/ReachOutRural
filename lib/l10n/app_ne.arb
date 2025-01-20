@@ -1,0 +1,243 @@
+{
+  "@@locale": "ne",
+  "continue_text": "जारी राख्नुहोस्",
+  "@continue_text": {
+    "description": "जारी राख्नुहोस् बटन"
+  },
+  "get_started": "सुरु गर्नुहोस्",
+  "@get_started": {
+    "description": "सुरु गर्नुहोस् बटन"
+  },
+  "login": "लगइन गर्नुहोस्",
+  "@login": {
+    "description": "लगइन गर्नुहोस् बटन"
+  },
+  "login_desc": "आउनुहोस्, Reach Out Rural को आनन्द लिऔं।",
+  "@login_desc": {
+    "description": "लगइन विवरण"
+  },
+  "phone_number": "फोन नम्बर",
+  "@phone_number": {
+    "description": "फोन नम्बर"
+  },
+  "register": "दर्ता गर्नुहोस्",
+  "@register": {
+    "description": "दर्ता गर्नुहोस् बटन"
+  },
+  "register_desc": "आउनुहोस्, Reach Out Rural को आनन्द लिऔं।",
+  "@register_desc": {
+    "description": "दर्ता विवरण"
+  },
+  "dont_have_account": "खाता छैन? ",
+  "@dont_have_account": {
+    "description": "खाता छैन? "
+  },
+  "have_account": "पहिले नै खाता छ? ",
+  "@have_account": {
+    "description": "पहिले नै खाता छ? "
+  },
+  "need_help": "मद्दत चाहियो?",
+  "@need_help": {
+    "description": "मद्दत चाहियो?"
+  },
+  "invalid_phone_number": "अमान्य मोबाइल नम्बर",
+  "@invalid_phone_number": {
+    "description": "अमान्य मोबाइल नम्बर"
+  },
+  "otp_verification": "OTP प्रमाणिकरण",
+  "@otp_verification": {
+    "description": "OTP प्रमाणिकरण"
+  },
+  "otp_verification_desc": "हामीले तपाईंको कोड पठाएको छौं ",
+  "@otp_verification_desc": {
+    "description": "OTP प्रमाणिकरण विवरण"
+  },
+  "otp_expire": "यो कोड म्याद सकिनेछ ",
+  "@otp_expire": {
+    "description": "OTP म्याद समाप्ति"
+  },
+  "resend_otp": "OTP कोड पुन: पठाउनुहोस्",
+  "@resend_otp": {
+    "description": "OTP कोड पुन: पठाउनुहोस्"
+  },
+  "what_is_gender": "तपाईंको लिङ्ग के हो?",
+  "@what_is_gender": {
+    "description": "लिङ्ग"
+  },
+  "what_is_age": "तपाईंको उमेर कति हो?",
+  "@what_is_age": {
+    "description": "उमेर"
+  },
+  "male": "पुरुष",
+  "@male": {
+    "description": "पुरुष"
+  },
+  "female": "महिला",
+  "@female": {
+    "description": "महिला"
+  },
+  "other": "अन्य",
+  "@other": {
+    "description": "अन्य"
+  },
+  "what_is_height": "तपाईंको उचाइ कति छ?",
+  "@what_is_height": {
+    "description": "उचाइ"
+  },
+  "what_is_weight": "तपाईंको तौल कति छ?",
+  "@what_is_weight": {
+    "description": "तौल"
+  },
+  "what_is_blood_group": "तपाईंको रक्त समूह के हो?",
+  "@what_is_blood_group": {
+    "description": "रक्त समूह"
+  },
+  "diagnosis": "निदान",
+  "@diagnosis": {
+    "description": "निदान"
+  },
+  "diagnosis_desc": "बटन थिच्नुहोस् र बोल्न सुरु गर्नुहोस्...",
+  "@diagnosis_desc": {
+    "description": "निदान विवरण"
+  },
+  "login_success": "सफलतापूर्वक लगइन गरिएको छ",
+  "@login_success": {
+    "description": "सफलतापूर्वक लगइन गरिएको छ"
+  },
+  "logged_out": "सफलतापूर्वक लग आउट गरिएको छ",
+  "@logged_out": {
+    "description": "सफलतापूर्वक लग आउट गरिएको छ"
+  },
+  "register_success": "सफलतापूर्वक दर्ता गरिएको छ",
+  "@register_success": {
+    "description": "सफलतापूर्वक दर्ता गरिएको छ"
+  },
+  "proflie_update_success": "प्रोफाइल सफलतापूर्वक अद्यावधिक गरिएको छ",
+  "@proflie_update_success": {
+    "description": "प्रोफाइल सफलतापूर्वक अद्यावधिक गरिएको छ"
+  },
+  "search_for_doctor": "डाक्टर खोज्नुहोस्...",
+  "@search_for_doctor": {
+    "description": "डाक्टर खोज्नुहोस्..."
+  },
+  "book_appointment": "अपोइन्टमेन्ट बुक गर्नुहोस्",
+  "@book_appointment": {
+    "description": "अपोइन्टमेन्ट बुक गर्नुहोस्"
+  },
+  "instant_vid_consultation": "तत्काल भिडियो परामर्श",
+  "@instant_vid_consultation": {
+    "description": "तत्काल भिडियो परामर्श"
+  },
+  "nearby_doctors": "नजिकैका डाक्टरहरू",
+  "@nearby_doctors": {
+    "description": "नजिकैका डाक्टरहरू"
+  },
+  "view_more_doctors": "अधिक डाक्टरहरू हेर्नुहोस्",
+  "@view_more_doctors": {
+    "description": "अधिक डाक्टरहरू हेर्नुहोस्"
+  },
+  "learn_more": "थप जान्नुहोस्",
+  "@learn_more": {
+    "description": "थप जान्नुहोस्"
+  },
+  "doctor_info": "डाक्टरको जानकारी",
+  "@doctor_info": {
+    "description": "डाक्टरको जानकारी"
+  },
+  "nearby_hospitals": "नजिकैका अस्पतालहरू",
+  "@nearby_hospitals": {
+    "description": "नजिकैका अस्पतालहरू"
+  },
+  "view_more_hospitals": "अधिक अस्पतालहरू हेर्नुहोस्",
+  "@view_more_hospitals": {
+    "description": "अधिक अस्पतालहरू हेर्नुहोस्"
+  },
+  "my_prescriptions": "मेरा प्रिस्क्रिप्शनहरू",
+  "@my_prescriptions": {
+    "description": "मेरा प्रिस्क्रिप्शनहरू"
+  },
+  "my_appointments": "मेरा अपोइन्टमेन्टहरू",
+  "@my_appointments": {
+    "description": "मेरा अपोइन्टमेन्टहरू"
+  },
+  "search_nearby_hospitals": "नजिकैका अस्पतालहरू खोज्नुहोस्",
+  "@search_nearby_hospitals": {
+    "description": "नजिकैका अस्पतालहरू खोज्नुहोस्"
+  },
+  "search_for_nearby_hospitals": "नजिकैका अस्पतालहरू खोज्नुहोस्...",
+  "@search_for_nearby_hospitals": {
+    "description": "नजिकैका अस्पतालहरू खोज्नुहोस्..."
+  },
+  "search_doctors": "डाक्टर खोज्नुहोस्",
+  "@search_doctors": {
+    "description": "डाक्टर खोज्नुहोस्"
+  },
+  "search_for_doctors": "डाक्टर खोज्नुहोस्...",
+  "@search_for_doctors": {
+    "description": "डाक्टर खोज्नुहोस्..."
+  },
+  "profile": "प्रोफाइल",
+  "@profile": {
+    "description": "प्रोफाइल"
+  },
+  "prescriptions": "प्रिस्क्रिप्शनहरू",
+  "@prescriptions": {
+    "description": "प्रिस्क्रिप्शनहरू"
+  },
+  "upload_prescription": "प्रिस्क्रिप्शन अपलोड गर्नुहोस्",
+  "@upload_prescription": {
+    "description": "प्रिस्क्रिप्शन अपलोड गर्नुहोस्"
+  },
+  "logout": "लग आउट",
+  "@logout": {
+    "description": "लग आउट"
+  },
+  "edit_profile": "प्रोफाइल सम्पादन गर्नुहोस्",
+  "@edit_profile": {
+    "description": "प्रोफाइल सम्पादन गर्नुहोस्"
+  },
+  "bio": "बायो",
+  "@bio": {
+    "description": "बायो"
+  },
+  "name": "नाम",
+  "@name": {
+    "description": "नाम"
+  },
+  "age": "उमेर",
+  "@age": {
+    "description": "उमेर"
+  },
+  "gender": "लिङ्ग",
+  "@gender": {
+    "description": "लिङ्ग"
+  },
+  "height": "उचाइ",
+  "@height": {
+    "description": "उचाइ"
+  },
+  "weight": "तौल",
+  "@weight": {
+    "description": "तौल"
+  },
+  "blood_group": "रक्त समूह",
+  "@blood_group": {
+    "description": "रक्त समूह"
+  },
+  "phone": "फोन",
+  "@phone": {
+    "description": "फोन"
+  },
+  "email": "इमेल",
+  "@email": {
+    "description": "इमेल"
+  },
+  "location": "स्थान",
+  "@location": {
+    "description": "स्थान"
+  },
+  "save": "सुरक्षित गर्नुहोस्",
+  "@save": {
+    "description": "सुरक्षित गर्नुहोस्"
+  }
+}

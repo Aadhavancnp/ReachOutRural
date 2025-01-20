@@ -1,0 +1,243 @@
+{
+  "@@locale": "ta",
+  "continue_text": "தொடரவும்",
+  "@continue_text": {
+    "description": "தொடரவும் பொத்தான்"
+  },
+  "get_started": "தொடங்கு",
+  "@get_started": {
+    "description": "தொடங்கு பொத்தான்"
+  },
+  "login": "உள்நுழை",
+  "@login": {
+    "description": "உள்நுழை பொத்தான்"
+  },
+  "login_desc": "Reach Out Rural இன் மகிழ்ச்சியை அனுபவிப்போம்.",
+  "@login_desc": {
+    "description": "உள்நுழைவு விளக்கம்"
+  },
+  "phone_number": "தொலைபேசி எண்",
+  "@phone_number": {
+    "description": "தொலைபேசி எண்"
+  },
+  "register": "பதிவு செய்",
+  "@register": {
+    "description": "பதிவு செய் பொத்தான்"
+  },
+  "register_desc": "Reach Out Rural இன் மகிழ்ச்சியை அனுபவிப்போம்.",
+  "@register_desc": {
+    "description": "பதிவு விளக்கம்"
+  },
+  "dont_have_account": "கணக்கு இல்லையா? ",
+  "@dont_have_account": {
+    "description": "கணக்கு இல்லையா? "
+  },
+  "have_account": "ஏற்கனவே கணக்கு உள்ளதா? ",
+  "@have_account": {
+    "description": "ஏற்கனவே கணக்கு உள்ளதா? "
+  },
+  "need_help": "உதவி தேவையா?",
+  "@need_help": {
+    "description": "உதவி தேவையா?"
+  },
+  "invalid_phone_number": "தவறான மொபைல் எண்",
+  "@invalid_phone_number": {
+    "description": "தவறான மொபைல் எண்"
+  },
+  "otp_verification": "OTP சரிபார்ப்பு",
+  "@otp_verification": {
+    "description": "OTP சரிபார்ப்பு"
+  },
+  "otp_verification_desc": "உங்கள் குறியீட்டை நாங்கள் அனுப்பியுள்ளோம் ",
+  "@otp_verification_desc": {
+    "description": "OTP சரிபார்ப்பு விளக்கம்"
+  },
+  "otp_expire": "இந்த குறியீடு காலாவதியாகும் ",
+  "@otp_expire": {
+    "description": "OTP காலாவதி"
+  },
+  "resend_otp": "OTP குறியீட்டை மீண்டும் அனுப்பு",
+  "@resend_otp": {
+    "description": "OTP குறியீட்டை மீண்டும் அனுப்பு"
+  },
+  "what_is_gender": "உங்கள் பாலினம் என்ன?",
+  "@what_is_gender": {
+    "description": "பாலினம்"
+  },
+  "what_is_age": "உங்கள் வயது என்ன?",
+  "@what_is_age": {
+    "description": "வயது"
+  },
+  "male": "ஆண்",
+  "@male": {
+    "description": "ஆண்"
+  },
+  "female": "பெண்",
+  "@female": {
+    "description": "பெண்"
+  },
+  "other": "மற்றவை",
+  "@other": {
+    "description": "மற்றவை"
+  },
+  "what_is_height": "உங்கள் உயரம் என்ன?",
+  "@what_is_height": {
+    "description": "உயரம்"
+  },
+  "what_is_weight": "உங்கள் எடை என்ன?",
+  "@what_is_weight": {
+    "description": "எடை"
+  },
+  "what_is_blood_group": "உங்கள் இரத்த வகை என்ன?",
+  "@what_is_blood_group": {
+    "description": "இரத்த வகை"
+  },
+  "diagnosis": "நோய் கண்டறிதல்",
+  "@diagnosis": {
+    "description": "நோய் கண்டறிதல்"
+  },
+  "diagnosis_desc": "பொத்தானை அழுத்தி பேசத் தொடங்குங்கள்...",
+  "@diagnosis_desc": {
+    "description": "நோய் கண்டறிதல் விளக்கம்"
+  },
+  "login_success": "வெற்றிகரமாக உள்நுழைந்தீர்கள்",
+  "@login_success": {
+    "description": "வெற்றிகரமாக உள்நுழைந்தீர்கள்"
+  },
+  "logged_out": "வெற்றிகரமாக வெளியேறினீர்கள்",
+  "@logged_out": {
+    "description": "வெற்றிகரமாக வெளியேறினீர்கள்"
+  },
+  "register_success": "வெற்றிகரமாக பதிவு செய்யப்பட்டது",
+  "@register_success": {
+    "description": "வெற்றிகரமாக பதிவு செய்யப்பட்டது"
+  },
+  "proflie_update_success": "சுயவிவரம் வெற்றிகரமாக புதுப்பிக்கப்பட்டது",
+  "@proflie_update_success": {
+    "description": "சுயவிவரம் வெற்றிகரமாக புதுப்பிக்கப்பட்டது"
+  },
+  "search_for_doctor": "மருத்துவர்களைத் தேடுங்கள்...",
+  "@search_for_doctor": {
+    "description": "மருத்துவர்களைத் தேடுங்கள்..."
+  },
+  "book_appointment": "நியமனங்களை முன்பதிவு செய்",
+  "@book_appointment": {
+    "description": "நியமனங்களை முன்பதிவு செய்"
+  },
+  "instant_vid_consultation": "உடனடி வீடியோ ஆலோசனை",
+  "@instant_vid_consultation": {
+    "description": "உடனடி வீடியோ ஆலோசனை"
+  },
+  "nearby_doctors": "அருகிலுள்ள மருத்துவர்கள்",
+  "@nearby_doctors": {
+    "description": "அருகிலுள்ள மருத்துவர்கள்"
+  },
+  "view_more_doctors": "மேலும் மருத்துவர்களைப் பார்க்கவும்",
+  "@view_more_doctors": {
+    "description": "மேலும் மருத்துவர்களைப் பார்க்கவும்"
+  },
+  "learn_more": "மேலும் அறிக",
+  "@learn_more": {
+    "description": "மேலும் அறிக"
+  },
+  "doctor_info": "மருத்துவர் தகவல்",
+  "@doctor_info": {
+    "description": "மருத்துவர் தகவல்"
+  },
+  "nearby_hospitals": "அருகிலுள்ள மருத்துவமனைகள்",
+  "@nearby_hospitals": {
+    "description": "அருகிலுள்ள மருத்துவமனைகள்"
+  },
+  "view_more_hospitals": "மேலும் மருத்துவமனைகளைப் பார்க்கவும்",
+  "@view_more_hospitals": {
+    "description": "மேலும் மருத்துவமனைகளைப் பார்க்கவும்"
+  },
+  "my_prescriptions": "எனது மருந்துச்சீட்டுகள்",
+  "@my_prescriptions": {
+    "description": "எனது மருந்துச்சீட்டுகள்"
+  },
+  "my_appointments": "எனது நியமனங்கள்",
+  "@my_appointments": {
+    "description": "எனது நியமனங்கள்"
+  },
+  "search_nearby_hospitals": "அருகிலுள்ள மருத்துவமனைகளைத் தேடுங்கள்",
+  "@search_nearby_hospitals": {
+    "description": "அருகிலுள்ள மருத்துவமனைகளைத் தேடுங்கள்"
+  },
+  "search_for_nearby_hospitals": "அருகிலுள்ள மருத்துவமனைகளைத் தேடுங்கள்...",
+  "@search_for_nearby_hospitals": {
+    "description": "அருகிலுள்ள மருத்துவமனைகளைத் தேடுங்கள்..."
+  },
+  "search_doctors": "மருத்துவர்களைத் தேடுங்கள்",
+  "@search_doctors": {
+    "description": "மருத்துவர்களைத் தேடுங்கள்"
+  },
+  "search_for_doctors": "மருத்துவர்களைத் தேடுங்கள்...",
+  "@search_for_doctors": {
+    "description": "மருத்துவர்களைத் தேடுங்கள்..."
+  },
+  "profile": "சுயவிவரம்",
+  "@profile": {
+    "description": "சுயவிவரம்"
+  },
+  "prescriptions": "மருந்துச்சீட்டுகள்",
+  "@prescriptions": {
+    "description": "மருந்துச்சீட்டுகள்"
+  },
+  "upload_prescription": "மருந்துச்சீட்டை பதிவேற்று",
+  "@upload_prescription": {
+    "description": "மருந்துச்சீட்டை பதிவேற்று"
+  },
+  "logout": "வெளியேறு",
+  "@logout": {
+    "description": "வெளியேறு"
+  },
+  "edit_profile": "சுயவிவரத்தைத் திருத்து",
+  "@edit_profile": {
+    "description": "சுயவிவரத்தைத் திருத்து"
+  },
+  "bio": "சுயசரிதை",
+  "@bio": {
+    "description": "சுயசரிதை"
+  },
+  "name": "பெயர்",
+  "@name": {
+    "description": "பெயர்"
+  },
+  "age": "வயது",
+  "@age": {
+    "description": "வயது"
+  },
+  "gender": "பாலினம்",
+  "@gender": {
+    "description": "பாலினம்"
+  },
+  "height": "உயரம்",
+  "@height": {
+    "description": "உயரம்"
+  },
+  "weight": "எடை",
+  "@weight": {
+    "description": "எடை"
+  },
+  "blood_group": "இரத்த வகை",
+  "@blood_group": {
+    "description": "இரத்த வகை"
+  },
+  "phone": "தொலைபேசி",
+  "@phone": {
+    "description": "தொலைபேசி"
+  },
+  "email": "மின்னஞ்சல்",
+  "@email": {
+    "description": "மின்னஞ்சல்"
+  },
+  "location": "இடம்",
+  "@location": {
+    "description": "இடம்"
+  },
+  "save": "சேமி",
+  "@save": {
+    "description": "சேமி"
+  }
+}

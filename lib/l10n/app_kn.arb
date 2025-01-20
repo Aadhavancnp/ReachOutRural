@@ -1,0 +1,243 @@
+{
+  "@@locale": "kn",
+  "continue_text": "ಮುಂದುವರಿಸಿ",
+  "@continue_text": {
+    "description": "ಮುಂದುವರಿಸಿ ಬಟನ್"
+  },
+  "get_started": "ಪ್ರಾರಂಭಿಸಿ",
+  "@get_started": {
+    "description": "ಪ್ರಾರಂಭಿಸಿ ಬಟನ್"
+  },
+  "login": "ಲಾಗಿನ್ ಮಾಡಿ",
+  "@login": {
+    "description": "ಲಾಗಿನ್ ಮಾಡಿ ಬಟನ್"
+  },
+  "login_desc": "Reach Out Rural ನ ಸಂತೋಷವನ್ನು ಅನುಭವಿಸೋಣ.",
+  "@login_desc": {
+    "description": "ಲಾಗಿನ್ ವಿವರಣೆ"
+  },
+  "phone_number": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+  "@phone_number": {
+    "description": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
+  },
+  "register": "ನೋಂದಾಯಿಸಿ",
+  "@register": {
+    "description": "ನೋಂದಾಯಿಸಿ ಬಟನ್"
+  },
+  "register_desc": "Reach Out Rural ನ ಸಂತೋಷವನ್ನು ಅನುಭವಿಸೋಣ.",
+  "@register_desc": {
+    "description": "ನೋಂದಣಿ ವಿವರಣೆ"
+  },
+  "dont_have_account": "ಖಾತೆ ಇಲ್ಲವೇ? ",
+  "@dont_have_account": {
+    "description": "ಖಾತೆ ಇಲ್ಲವೇ? "
+  },
+  "have_account": "ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ? ",
+  "@have_account": {
+    "description": "ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ? "
+  },
+  "need_help": "ಸಹಾಯ ಬೇಕೇ?",
+  "@need_help": {
+    "description": "ಸಹಾಯ ಬೇಕೇ?"
+  },
+  "invalid_phone_number": "ಅಮಾನ್ಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ",
+  "@invalid_phone_number": {
+    "description": "ಅಮಾನ್ಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+  },
+  "otp_verification": "OTP ಪರಿಶೀಲನೆ",
+  "@otp_verification": {
+    "description": "OTP ಪರಿಶೀಲನೆ"
+  },
+  "otp_verification_desc": "ನಾವು ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಕಳುಹಿಸಿದ್ದೇವೆ ",
+  "@otp_verification_desc": {
+    "description": "OTP ಪರಿಶೀಲನೆ ವಿವರಣೆ"
+  },
+  "otp_expire": "ಈ ಕೋಡ್ ಅವಧಿ ಮುಗಿಯುತ್ತದೆ ",
+  "@otp_expire": {
+    "description": "OTP ಅವಧಿ ಮುಗಿಯುವಿಕೆ"
+  },
+  "resend_otp": "OTP ಕೋಡ್ ಅನ್ನು ಮತ್ತೆ ಕಳುಹಿಸಿ",
+  "@resend_otp": {
+    "description": "OTP ಕೋಡ್ ಅನ್ನು ಮತ್ತೆ ಕಳುಹಿಸಿ"
+  },
+  "what_is_gender": "ನಿಮ್ಮ ಲಿಂಗ ಏನು?",
+  "@what_is_gender": {
+    "description": "ಲಿಂಗ"
+  },
+  "what_is_age": "ನಿಮ್ಮ ವಯಸ್ಸು ಎಷ್ಟು?",
+  "@what_is_age": {
+    "description": "ವಯಸ್ಸು"
+  },
+  "male": "ಪುರುಷ",
+  "@male": {
+    "description": "ಪುರುಷ"
+  },
+  "female": "ಮಹಿಳೆ",
+  "@female": {
+    "description": "ಮಹಿಳೆ"
+  },
+  "other": "ಇತರೆ",
+  "@other": {
+    "description": "ಇತರೆ"
+  },
+  "what_is_height": "ನಿಮ್ಮ ಎತ್ತರ ಎಷ್ಟು?",
+  "@what_is_height": {
+    "description": "ಎತ್ತರ"
+  },
+  "what_is_weight": "ನಿಮ್ಮ ತೂಕ ಎಷ್ಟು?",
+  "@what_is_weight": {
+    "description": "ತೂಕ"
+  },
+  "what_is_blood_group": "ನಿಮ್ಮ ರಕ್ತದ ಗುಂಪು ಏನು?",
+  "@what_is_blood_group": {
+    "description": "ರಕ್ತದ ಗುಂಪು"
+  },
+  "diagnosis": "ರೋಗನಿರ್ಣಯ",
+  "@diagnosis": {
+    "description": "ರೋಗನಿರ್ಣಯ"
+  },
+  "diagnosis_desc": "ಬಟನ್ ಒತ್ತಿ ಮತ್ತು ಮಾತನಾಡಲು ಪ್ರಾರಂಭಿಸಿ...",
+  "@diagnosis_desc": {
+    "description": "ರೋಗನಿರ್ಣಯ ವಿವರಣೆ"
+  },
+  "login_success": "ಲಾಗಿನ್ ಯಶಸ್ವಿಯಾಗಿದೆ",
+  "@login_success": {
+    "description": "ಲಾಗಿನ್ ಯಶಸ್ವಿಯಾಗಿದೆ"
+  },
+  "logged_out": "ಲಾಗ್ಔಟ್ ಯಶಸ್ವಿಯಾಗಿದೆ",
+  "@logged_out": {
+    "description": "ಲಾಗ್ಔಟ್ ಯಶಸ್ವಿಯಾಗಿದೆ"
+  },
+  "register_success": "ನೋಂದಣಿ ಯಶಸ್ವಿಯಾಗಿದೆ",
+  "@register_success": {
+    "description": "ನೋಂದಣಿ ಯಶಸ್ವಿಯಾಗಿದೆ"
+  },
+  "proflie_update_success": "ಪ್ರೊಫೈಲ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+  "@proflie_update_success": {
+    "description": "ಪ್ರೊಫೈಲ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ"
+  },
+  "search_for_doctor": "ವೈದ್ಯರನ್ನು ಹುಡುಕಿ...",
+  "@search_for_doctor": {
+    "description": "ವೈದ್ಯರನ್ನು ಹುಡುಕಿ..."
+  },
+  "book_appointment": "ನೇಮಕಾತಿಗಳನ್ನು ಬುಕ್ ಮಾಡಿ",
+  "@book_appointment": {
+    "description": "ನೇಮಕಾತಿಗಳನ್ನು ಬುಕ್ ಮಾಡಿ"
+  },
+  "instant_vid_consultation": "ತತ್ಕ್ಷಣದ ವೀಡಿಯೊ ಸಮಾಲೋಚನೆ",
+  "@instant_vid_consultation": {
+    "description": "ತತ್ಕ್ಷಣದ ವೀಡಿಯೊ ಸಮಾಲೋಚನೆ"
+  },
+  "nearby_doctors": "ಹತ್ತಿರದ ವೈದ್ಯರು",
+  "@nearby_doctors": {
+    "description": "ಹತ್ತಿರದ ವೈದ್ಯರು"
+  },
+  "view_more_doctors": "ಇನ್ನಷ್ಟು ವೈದ್ಯರನ್ನು ವೀಕ್ಷಿಸಿ",
+  "@view_more_doctors": {
+    "description": "ಇನ್ನಷ್ಟು ವೈದ್ಯರನ್ನು ವೀಕ್ಷಿಸಿ"
+  },
+  "learn_more": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ",
+  "@learn_more": {
+    "description": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+  },
+  "doctor_info": "ವೈದ್ಯರ ಮಾಹಿತಿ",
+  "@doctor_info": {
+    "description": "ವೈದ್ಯರ ಮಾಹಿತಿ"
+  },
+  "nearby_hospitals": "ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆಗಳು",
+  "@nearby_hospitals": {
+    "description": "ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆಗಳು"
+  },
+  "view_more_hospitals": "ಇನ್ನಷ್ಟು ಆಸ್ಪತ್ರೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+  "@view_more_hospitals": {
+    "description": "ಇನ್ನಷ್ಟು ಆಸ್ಪತ್ರೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+  },
+  "my_prescriptions": "ನನ್ನ ಪ್ರಿಸ್ಕ್ರಿಪ್ಷನ್‌ಗಳು",
+  "@my_prescriptions": {
+    "description": "ನನ್ನ ಪ್ರಿಸ್ಕ್ರಿಪ್ಷನ್‌ಗಳು"
+  },
+  "my_appointments": "ನನ್ನ ನೇಮಕಾತಿಗಳು",
+  "@my_appointments": {
+    "description": "ನನ್ನ ನೇಮಕಾತಿಗಳು"
+  },
+  "search_nearby_hospitals": "ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆಗಳನ್ನು ಹುಡುಕಿ",
+  "@search_nearby_hospitals": {
+    "description": "ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆಗಳನ್ನು ಹುಡುಕಿ"
+  },
+  "search_for_nearby_hospitals": "ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆಗಳನ್ನು ಹುಡುಕಿ...",
+  "@search_for_nearby_hospitals": {
+    "description": "ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆಗಳನ್ನು ಹುಡುಕಿ..."
+  },
+  "search_doctors": "ವೈದ್ಯರನ್ನು ಹುಡುಕಿ",
+  "@search_doctors": {
+    "description": "ವೈದ್ಯರನ್ನು ಹುಡುಕಿ"
+  },
+  "search_for_doctors": "ವೈದ್ಯರನ್ನು ಹುಡುಕಿ...",
+  "@search_for_doctors": {
+    "description": "ವೈದ್ಯರನ್ನು ಹುಡುಕಿ..."
+  },
+  "profile": "ಪ್ರೊಫೈಲ್",
+  "@profile": {
+    "description": "ಪ್ರೊಫೈಲ್"
+  },
+  "prescriptions": "ಪ್ರಿಸ್ಕ್ರಿಪ್ಷನ್‌ಗಳು",
+  "@prescriptions": {
+    "description": "ಪ್ರಿಸ್ಕ್ರಿಪ್ಷನ್‌ಗಳು"
+  },
+  "upload_prescription": "ಪ್ರಿಸ್ಕ್ರಿಪ್ಷನ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+  "@upload_prescription": {
+    "description": "ಪ್ರಿಸ್ಕ್ರಿಪ್ಷನ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "logout": "ಲಾಗ್ ಔಟ್",
+  "@logout": {
+    "description": "ಲಾಗ್ ಔಟ್"
+  },
+  "edit_profile": "ಪ್ರೊಫೈಲ್ ಸಂಪಾದಿಸಿ",
+  "@edit_profile": {
+    "description": "ಪ್ರೊಫೈಲ್ ಸಂಪಾದಿಸಿ"
+  },
+  "bio": "ಜೀವನಚರಿತ್ರೆ",
+  "@bio": {
+    "description": "ಜೀವನಚರಿತ್ರೆ"
+  },
+  "name": "ಹೆಸರು",
+  "@name": {
+    "description": "ಹೆಸರು"
+  },
+  "age": "ವಯಸ್ಸು",
+  "@age": {
+    "description": "ವಯಸ್ಸು"
+  },
+  "gender": "ಲಿಂಗ",
+  "@gender": {
+    "description": "ಲಿಂಗ"
+  },
+  "height": "ಎತ್ತರ",
+  "@height": {
+    "description": "ಎತ್ತರ"
+  },
+  "weight": "ತೂಕ",
+  "@weight": {
+    "description": "ತೂಕ"
+  },
+  "blood_group": "ರಕ್ತದ ಗುಂಪು",
+  "@blood_group": {
+    "description": "ರಕ್ತದ ಗುಂಪು"
+  },
+  "phone": "ದೂರವಾಣಿ",
+  "@phone": {
+    "description": "ದೂರವಾಣಿ"
+  },
+  "email": "ಇಮೇಲ್",
+  "@email": {
+    "description": "ಇಮೇಲ್"
+  },
+  "location": "ಸ್ಥಳ",
+  "@location": {
+    "description": "ಸ್ಥಳ"
+  },
+  "save": "ಉಳಿಸಿ",
+  "@save": {
+    "description": "ಉಳಿಸಿ"
+  }
+}

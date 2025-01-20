@@ -1,0 +1,243 @@
+{
+  "@@locale": "en",
+  "continue_text": "Continue",
+  "@continue_text": {
+    "description": "Continue button"
+  },
+  "get_started": "Get Started",
+  "@get_started": {
+    "description": "Get Started button"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button"
+  },
+  "login_desc": "Let''s experience the joy of Reach Out Rural.",
+  "@login_desc": {
+    "description": "Login description"
+  },
+  "phone_number": "Phone Number",
+  "@phone_number": {
+    "description": "Phone Number"
+  },
+  "register": "Register",
+  "@register": {
+    "description": "Register button"
+  },
+  "register_desc": "Let''s experience the joy of Reach Out Rural.",
+  "@register_desc": {
+    "description": "Register description"
+  },
+  "dont_have_account": "Don''t have an account? ",
+  "@dont_have_account": {
+    "description": "Don''t have an account? "
+  },
+  "have_account": "Already have an account? ",
+  "@have_account": {
+    "description": "Already have an account? "
+  },
+  "need_help": "Need help?",
+  "@need_help": {
+    "description": "Need help?"
+  },
+  "invalid_phone_number": "Invalid Mobile Number",
+  "@invalid_phone_number": {
+    "description": "Invalid Mobile Number"
+  },
+  "otp_verification": "OTP Verification",
+  "@otp_verification": {
+    "description": "OTP Verification"
+  },
+  "otp_verification_desc": "We sent your code to ",
+  "@otp_verification_desc": {
+    "description": "OTP Verification description"
+  },
+  "otp_expire": "This code will expire in ",
+  "@otp_expire": {
+    "description": "OTP Expire"
+  },
+  "resend_otp": "Resend OTP Code",
+  "@resend_otp": {
+    "description": "Resend OTP Code"
+  },
+  "what_is_gender": "What''s your Gender?",
+  "@what_is_gender": {
+    "description": "Gender"
+  },
+  "what_is_age": "What''s your Age?",
+  "@what_is_age": {
+    "description": "Age"
+  },
+  "male": "Male",
+  "@male": {
+    "description": "Male"
+  },
+  "female": "Female",
+  "@female": {
+    "description": "Female"
+  },
+  "other": "Other",
+  "@other": {
+    "description": "Other"
+  },
+  "what_is_height": "What''s your Height?",
+  "@what_is_height": {
+    "description": "Height"
+  },
+  "what_is_weight": "What''s your Weight?",
+  "@what_is_weight": {
+    "description": "Weight"
+  },
+  "what_is_blood_group": "What''s your Blood Group?",
+  "@what_is_blood_group": {
+    "description": "Blood Group"
+  },
+  "diagnosis": "Diagnosis",
+  "@diagnosis": {
+    "description": "Diagnosis"
+  },
+  "diagnosis_desc": "Press the button and start speaking...",
+  "@diagnosis_desc": {
+    "description": "Diagnosis description"
+  },
+  "login_success": "Logged in successfully",
+  "@login_success": {
+    "description": "Logged in successfully"
+  },
+  "logged_out": "Logged out successfully",
+  "@logged_out": {
+    "description": "Logged out successfully"
+  },
+  "register_success": "Registered successfully",
+  "@register_success": {
+    "description": "Registered successfully"
+  },
+  "proflie_update_success": "Profile updated successfully",
+  "@proflie_update_success": {
+    "description": "Profile updated successfully"
+  },
+  "search_for_doctor": "Search for Doctors...",
+  "@search_for_doctor": {
+    "description": "Search for Doctors..."
+  },
+  "book_appointment": "Book Appointments",
+  "@book_appointment": {
+    "description": "Book Appointments"
+  },
+  "instant_vid_consultation": "Instant Video Consultation",
+  "@instant_vid_consultation": {
+    "description": "Instant Video Consultation"
+  },
+  "nearby_doctors": "Nearby Doctors",
+  "@nearby_doctors": {
+    "description": "Nearby Doctors"
+  },
+  "view_more_doctors": "View More Doctors",
+  "@view_more_doctors": {
+    "description": "View More Doctors"
+  },
+  "learn_more": "Learn More",
+  "@learn_more": {
+    "description": "Learn More"
+  },
+  "doctor_info": "Doctor Info",
+  "@doctor_info": {
+    "description": "Doctor Info"
+  },
+  "nearby_hospitals": "Nearby Hospitals",
+  "@nearby_hospitals": {
+    "description": "Nearby Hospitals"
+  },
+  "view_more_hospitals": "View More Hospitals",
+  "@view_more_hospitals": {
+    "description": "View More Hospitals"
+  },
+  "my_prescriptions": "My Prescriptions",
+  "@my_prescriptions": {
+    "description": "My Prescriptions"
+  },
+  "my_appointments": "My Appointments",
+  "@my_appointments": {
+    "description": "My Appointments"
+  },
+  "search_nearby_hospitals": "Search Nearby Hospitals",
+  "@search_nearby_hospitals": {
+    "description": "Search Nearby Hospitals"
+  },
+  "search_for_nearby_hospitals": "Search for Nearby Hospitals...",
+  "@search_for_nearby_hospitals": {
+    "description": "Search for Nearby Hospitals..."
+  },
+  "search_doctors": "Search Doctors",
+  "@search_doctors": {
+    "description": "Search Doctors"
+  },
+  "search_for_doctors": "Search for Doctors...",
+  "@search_for_doctors": {
+    "description": "Search for Doctors..."
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile"
+  },
+  "prescriptions": "Prescriptions",
+  "@prescriptions": {
+    "description": "Prescriptions"
+  },
+  "upload_prescription": "Upload Prescription",
+  "@upload_prescription": {
+    "description": "Upload Prescription"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout"
+  },
+  "edit_profile": "Edit Profile",
+  "@edit_profile": {
+    "description": "Edit Profile"
+  },
+  "bio": "Bio",
+  "@bio": {
+    "description": "Bio"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name"
+  },
+  "age": "Age",
+  "@age": {
+    "description": "Age"
+  },
+  "gender": "Gender",
+  "@gender": {
+    "description": "Gender"
+  },
+  "height": "Height",
+  "@height": {
+    "description": "Height"
+  },
+  "weight": "Weight",
+  "@weight": {
+    "description": "Weight"
+  },
+  "blood_group": "Blood Group",
+  "@blood_group": {
+    "description": "Blood Group"
+  },
+  "phone": "Phone",
+  "@phone": {
+    "description": "Phone"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Email"
+  },
+  "location": "Location",
+  "@location": {
+    "description": "Location"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save"
+  }
+}

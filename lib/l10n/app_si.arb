@@ -1,0 +1,243 @@
+{
+  "@@locale": "si",
+  "continue_text": "ඉදිරියට යන්න",
+  "@continue_text": {
+    "description": "ඉදිරියට යන්න බොත්තම"
+  },
+  "get_started": "ආරම්භ කරන්න",
+  "@get_started": {
+    "description": "ආරම්භ කරන්න බොත්තම"
+  },
+  "login": "ඇතුල් වන්න",
+  "@login": {
+    "description": "ඇතුල් වන්න බොත්තම"
+  },
+  "login_desc": "Reach Out Rural හි ප්‍රීතිය අත්විඳින්න.",
+  "@login_desc": {
+    "description": "ඇතුල් වීමේ විස්තරය"
+  },
+  "phone_number": "දුරකථන අංකය",
+  "@phone_number": {
+    "description": "දුරකථන අංකය"
+  },
+  "register": "ලියාපදිංචි වන්න",
+  "@register": {
+    "description": "ලියාපදිංචි වන්න බොත්තම"
+  },
+  "register_desc": "Reach Out Rural හි ප්‍රීතිය අත්විඳින්න.",
+  "@register_desc": {
+    "description": "ලියාපදිංචි වීමේ විස්තරය"
+  },
+  "dont_have_account": "ගිණුමක් නැද්ද? ",
+  "@dont_have_account": {
+    "description": "ගිණුමක් නැද්ද? "
+  },
+  "have_account": "දැනටමත් ගිණුමක් තිබේද? ",
+  "@have_account": {
+    "description": "දැනටමත් ගිණුමක් තිබේද? "
+  },
+  "need_help": "උදව් අවශ්‍යද?",
+  "@need_help": {
+    "description": "උදව් අවශ්‍යද?"
+  },
+  "invalid_phone_number": "අවලංගු ජංගම දුරකථන අංකය",
+  "@invalid_phone_number": {
+    "description": "අවලංගු ජංගම දුරකථන අංකය"
+  },
+  "otp_verification": "OTP සත්‍යාපනය",
+  "@otp_verification": {
+    "description": "OTP සත්‍යාපනය"
+  },
+  "otp_verification_desc": "අපි ඔබේ කේතය යවා ඇත ",
+  "@otp_verification_desc": {
+    "description": "OTP සත්‍යාපන විස්තරය"
+  },
+  "otp_expire": "මෙම කේතය කල් ඉකුත් වනු ඇත ",
+  "@otp_expire": {
+    "description": "OTP කල් ඉකුත් වීම"
+  },
+  "resend_otp": "OTP කේතය නැවත යවන්න",
+  "@resend_otp": {
+    "description": "OTP කේතය නැවත යවන්න"
+  },
+  "what_is_gender": "ඔබේ ලිංගභේදය කුමක්ද?",
+  "@what_is_gender": {
+    "description": "ලිංගභේදය"
+  },
+  "what_is_age": "ඔබේ වයස කීයද?",
+  "@what_is_age": {
+    "description": "වයස"
+  },
+  "male": "පිරිමි",
+  "@male": {
+    "description": "පිරිමි"
+  },
+  "female": "ගැහැණු",
+  "@female": {
+    "description": "ගැහැණු"
+  },
+  "other": "අනෙකුත්",
+  "@other": {
+    "description": "අනෙකුත්"
+  },
+  "what_is_height": "ඔබේ උස කුමක්ද?",
+  "@what_is_height": {
+    "description": "උස"
+  },
+  "what_is_weight": "ඔබේ බර කුමක්ද?",
+  "@what_is_weight": {
+    "description": "බර"
+  },
+  "what_is_blood_group": "ඔබේ රුධිර කාණ්ඩය කුමක්ද?",
+  "@what_is_blood_group": {
+    "description": "රුධිර කාණ්ඩය"
+  },
+  "diagnosis": "රෝග විනිශ්චය",
+  "@diagnosis": {
+    "description": "රෝග විනිශ්චය"
+  },
+  "diagnosis_desc": "බොත්තම ඔබා කතා කිරීම ආරම්භ කරන්න...",
+  "@diagnosis_desc": {
+    "description": "රෝග විනිශ්චය විස්තරය"
+  },
+  "login_success": "සාර්ථකව ඇතුල් විය",
+  "@login_success": {
+    "description": "සාර්ථකව ඇතුල් විය"
+  },
+  "logged_out": "සාර්ථකව පිටවිය",
+  "@logged_out": {
+    "description": "සාර්ථකව පිටවිය"
+  },
+  "register_success": "සාර්ථකව ලියාපදිංචි විය",
+  "@register_success": {
+    "description": "සාර්ථකව ලියාපදිංචි විය"
+  },
+  "proflie_update_success": "පැතිකඩ සාර්ථකව යාවත්කාලීන කරන ලදී",
+  "@proflie_update_success": {
+    "description": "පැතිකඩ සාර්ථකව යාවත්කාලීන කරන ලදී"
+  },
+  "search_for_doctor": "වෛද්‍යවරුන් සොයන්න...",
+  "@search_for_doctor": {
+    "description": "වෛද්‍යවරුන් සොයන්න..."
+  },
+  "book_appointment": "පත්වීම් වෙන්කරවා ගන්න",
+  "@book_appointment": {
+    "description": "පත්වීම් වෙන්කරවා ගන්න"
+  },
+  "instant_vid_consultation": "ක්ෂණික වීඩියෝ උපදේශනය",
+  "@instant_vid_consultation": {
+    "description": "ක්ෂණික වීඩියෝ උපදේශනය"
+  },
+  "nearby_doctors": "ළඟම ඇති වෛද්‍යවරු",
+  "@nearby_doctors": {
+    "description": "ළඟම ඇති වෛද්‍යවරු"
+  },
+  "view_more_doctors": "තවත් වෛද්‍යවරුන් බලන්න",
+  "@view_more_doctors": {
+    "description": "තවත් වෛද්‍යවරුන් බලන්න"
+  },
+  "learn_more": "තව දැනගන්න",
+  "@learn_more": {
+    "description": "තව දැනගන්න"
+  },
+  "doctor_info": "වෛද්‍ය තොරතුරු",
+  "@doctor_info": {
+    "description": "වෛද්‍ය තොරතුරු"
+  },
+  "nearby_hospitals": "ළඟම ඇති රෝහල්",
+  "@nearby_hospitals": {
+    "description": "ළඟම ඇති රෝහල්"
+  },
+  "view_more_hospitals": "තවත් රෝහල් බලන්න",
+  "@view_more_hospitals": {
+    "description": "තවත් රෝහල් බලන්න"
+  },
+  "my_prescriptions": "මගේ බෙහෙත් වට්ටෝරු",
+  "@my_prescriptions": {
+    "description": "මගේ බෙහෙත් වට්ටෝරු"
+  },
+  "my_appointments": "මගේ පත්වීම්",
+  "@my_appointments": {
+    "description": "මගේ පත්වීම්"
+  },
+  "search_nearby_hospitals": "ළඟම ඇති රෝහල් සොයන්න",
+  "@search_nearby_hospitals": {
+    "description": "ළඟම ඇති රෝහල් සොයන්න"
+  },
+  "search_for_nearby_hospitals": "ළඟම ඇති රෝහල් සොයන්න...",
+  "@search_for_nearby_hospitals": {
+    "description": "ළඟම ඇති රෝහල් සොයන්න..."
+  },
+  "search_doctors": "වෛද්‍යවරුන් සොයන්න",
+  "@search_doctors": {
+    "description": "වෛද්‍යවරුන් සොයන්න"
+  },
+  "search_for_doctors": "වෛද්‍යවරුන් සොයන්න...",
+  "@search_for_doctors": {
+    "description": "වෛද්‍යවරුන් සොයන්න..."
+  },
+  "profile": "පැතිකඩ",
+  "@profile": {
+    "description": "පැතිකඩ"
+  },
+  "prescriptions": "බෙහෙත් වට්ටෝරු",
+  "@prescriptions": {
+    "description": "බෙහෙත් වට්ටෝරු"
+  },
+  "upload_prescription": "බෙහෙත් වට්ටෝරුව උඩුගත කරන්න",
+  "@upload_prescription": {
+    "description": "බෙහෙත් වට්ටෝරුව උඩුගත කරන්න"
+  },
+  "logout": "පිටවන්න",
+  "@logout": {
+    "description": "පිටවන්න"
+  },
+  "edit_profile": "පැතිකඩ සංස්කරණය කරන්න",
+  "@edit_profile": {
+    "description": "පැතිකඩ සංස්කරණය කරන්න"
+  },
+  "bio": "චරිතාපදානය",
+  "@bio": {
+    "description": "චරිතාපදානය"
+  },
+  "name": "නම",
+  "@name": {
+    "description": "නම"
+  },
+  "age": "වයස",
+  "@age": {
+    "description": "වයස"
+  },
+  "gender": "ලිංගභේදය",
+  "@gender": {
+    "description": "ලිංගභේදය"
+  },
+  "height": "උස",
+  "@height": {
+    "description": "උස"
+  },
+  "weight": "බර",
+  "@weight": {
+    "description": "බර"
+  },
+  "blood_group": "රුධිර කාණ්ඩය",
+  "@blood_group": {
+    "description": "රුධිර කාණ්ඩය"
+  },
+  "phone": "දුරකථනය",
+  "@phone": {
+    "description": "දුරකථනය"
+  },
+  "email": "විද්‍යුත් තැපෑල",
+  "@email": {
+    "description": "විද්‍යුත් තැපෑල"
+  },
+  "location": "ස්ථානය",
+  "@location": {
+    "description": "ස්ථානය"
+  },
+  "save": "සුරකින්න",
+  "@save": {
+    "description": "සුරකින්න"
+  }
+}

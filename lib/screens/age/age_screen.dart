@@ -1,29 +1,12 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:iconsax/iconsax.dart';
-import 'package:reach_out_rural/constants/constants.dart';
-import 'package:reach_out_rural/repository/storage/storage_repository.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:reach_out_rural/repository/user/user_patient_repository.dart';
+import 'package:reach_out_rural/screens/age/age_selection.dart';
+import 'package:reach_out_rural/screens/age/cubit/age_cubit.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
-import 'package:reach_out_rural/widgets/default_icon_button.dart';
 
-class AgeScreen extends StatefulWidget {
+class AgeScreen extends StatelessWidget {
   const AgeScreen({super.key});
-
-  @override
-  State<AgeScreen> createState() => _AgeScreenState();
-}
-
-class _AgeScreenState extends State<AgeScreen> {
-  int _selectedAge = 18;
-
-  void _navigate() async {
-    final SharedPreferencesHelper prefs = SharedPreferencesHelper();
-    await prefs.setString("age", _selectedAge.toString());
-    if (!mounted) return;
-
-    context.go("/height");
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,59 +15,14 @@ class _AgeScreenState extends State<AgeScreen> {
     return Scaffold(
       body: SafeArea(
           child: SizedBox(
-        width: double.infinity,
-        height: double.infinity,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const SizedBox(height: 10),
-            Text("What's your age?",
-                style: TextStyle(
-                    fontSize: SizeConfig.getProportionateTextSize(25),
-                    fontWeight: FontWeight.bold)),
-            const SizedBox(height: 10),
-            Expanded(
-                child: SizedBox(
-              height: 200,
-              child: CupertinoPicker(
-                itemExtent: 50,
-                looping: true,
-                onSelectedItemChanged: (index) {
-                  setState(() {
-                    _selectedAge = index + 10;
-                  });
-                },
-                children: _generateAge(),
-              ),
-            )),
-            const SizedBox(height: 10),
-            DefaultIconButton(
-                width: SizeConfig.getProportionateScreenWidth(320),
-                height: SizeConfig.getProportionateScreenHeight(60),
-                fontSize: SizeConfig.getProportionateTextSize(20),
-                text: "Continue",
-                icon: Iconsax.arrow_right_35,
-                press: _navigate),
-            const SizedBox(height: 20),
-          ],
-        ),
-      )),
+              width: double.infinity,
+              height: double.infinity,
+              child: BlocProvider(
+                create: (context) => AgeCubit(
+                    userPatientRepository:
+                        context.read<UserPatientRepository>()),
+                child: const AgeSelection(),
+              ))),
     );
-  }
-
-  List<Widget> _generateAge() {
-    final List<Widget> ageList = [];
-    for (int i = 10; i <= 100; i++) {
-      ageList.add(Center(
-        child: Text(
-          '$i',
-          style: TextStyle(
-            fontSize: 32,
-            color: i == _selectedAge ? kPrimaryColor : kGreyColor,
-          ),
-        ),
-      ));
-    }
-    return ageList;
   }
 }

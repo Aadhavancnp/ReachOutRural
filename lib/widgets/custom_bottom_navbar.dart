@@ -22,7 +22,7 @@ class CustomBottomNavbar extends StatelessWidget {
         child: Container(
       height: 54,
       padding: const EdgeInsets.all(10),
-      margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 16),
+      margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
       decoration: BoxDecoration(
           color: kWhiteColor.withOpacity(0.8),
           borderRadius: const BorderRadius.all(Radius.circular(24)),

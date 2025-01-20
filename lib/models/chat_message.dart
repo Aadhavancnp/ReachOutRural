@@ -1,8 +1,10 @@
+import 'package:equatable/equatable.dart';
+
 enum ChatMessageType { text, audio, image, video, file }
 
 enum MessageStatus { notSent, notView, viewed }
 
-class ChatMessage {
+class ChatMessage extends Equatable {
   final String text;
   final ChatMessageType messageType;
   final MessageStatus messageStatus;
@@ -17,6 +19,10 @@ class ChatMessage {
     required this.isSender,
     this.attachment,
   });
+
+  @override
+  List<Object?> get props =>
+      [text, messageType, messageStatus, isSender, time, attachment];
 }
 
 List demoChatMessages = [

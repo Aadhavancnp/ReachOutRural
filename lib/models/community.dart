@@ -6,48 +6,62 @@ class Community {
   final int memberCount;
   final String description;
   final Icon icon;
+  final Color color;
+  final String specialization;
 
   Community(
       {required this.name,
+      required this.specialization,
       required this.memberCount,
       required this.description,
-      required this.icon});
+      required this.icon,
+      required this.color});
 }
 
 List<Community> communities = [
   Community(
-    name: 'Community 1',
-    memberCount: 100,
-    description:
-        'This is a community for people who are interested in Flutter development.',
-    icon: const Icon(Iconsax.activity),
-  ),
+      name: 'Cardiologist',
+      memberCount: 100,
+      description:
+          'This is a community for people who are need of Cardiologist.',
+      icon: const Icon(Iconsax.heart, color: Colors.pinkAccent),
+      color: Colors.pink,
+      specialization: "cardiology"),
   Community(
-    name: 'Community 2',
-    memberCount: 200,
-    description:
-        'This is a community for people who are interested in Android development.',
-    icon: const Icon(Iconsax.alarm),
-  ),
+      name: 'Oncology',
+      memberCount: 200,
+      description: 'This is a community for people who are need of Oncologist.',
+      icon: const Icon(Iconsax.activity, color: Colors.blueAccent),
+      color: Colors.blue,
+      specialization: "oncology"),
   Community(
-    name: 'Community 3',
-    memberCount: 300,
-    description:
-        'This is a community for people who are interested in iOS development.',
-    icon: const Icon(Iconsax.clock),
-  ),
+      name: 'Dermatologist',
+      memberCount: 300,
+      description:
+          'This is a community for people who are need of Dermatologist.',
+      icon: const Icon(Iconsax.personalcard, color: Colors.orangeAccent),
+      color: Colors.orange,
+      specialization: "dermatology"),
   Community(
-    name: 'Community 4',
-    memberCount: 400,
-    description:
-        'This is a community for people who are interested in Web development.',
-    icon: const Icon(Iconsax.cloud),
-  ),
+      name: 'Orthopedic',
+      memberCount: 400,
+      description: 'This is a community for people who are need of Orthopedic.',
+      icon: const Icon(Iconsax.hospital, color: Colors.greenAccent),
+      color: Colors.green,
+      specialization: "orthopedics"),
   Community(
-    name: 'Community 5',
-    memberCount: 500,
-    description:
-        'This is a community for people who are interested in UI/UX design.',
-    icon: const Icon(Iconsax.bank),
-  ),
+      name: 'Pediatrics',
+      memberCount: 500,
+      description:
+          'This is a community for people who are need of Psychiatrist.',
+      icon: const Icon(Iconsax.profile_2user, color: Colors.purpleAccent),
+      color: Colors.purple,
+      specialization: "pediatrics"),
+  Community(
+      name: "ENT",
+      specialization: "ent",
+      memberCount: 130,
+      description: "This is a community for people who are need of ENT.",
+      icon: const Icon(Iconsax.headphone, color: Colors.tealAccent),
+      color: Colors.teal),
 ];

@@ -4,34 +4,47 @@ import 'package:go_router/go_router.dart';
 import 'package:pinput/pinput.dart';
 import 'package:reach_out_rural/constants/constants.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
-import 'package:reach_out_rural/widgets/default_button.dart';
-
-final defaultPinTheme = PinTheme(
-  width: 90,
-  height: 90,
-  textStyle: TextStyle(
-    fontSize: SizeConfig.getProportionateTextSize(24),
-    color: Colors.black,
-  ),
-  decoration: BoxDecoration(
-    color: const Color(0x91DEE7F0),
-    borderRadius: BorderRadius.circular(8),
-    border: Border.all(color: Colors.transparent),
-  ),
-);
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/widgets/default_button_loader.dart';
 
 class OtpForm extends StatelessWidget {
-  const OtpForm({super.key});
+  const OtpForm({super.key, required this.isLogin});
+
+  final bool isLogin;
 
   @override
   Widget build(BuildContext context) {
+    final defaultPinTheme = PinTheme(
+      width: 90,
+      height: 90,
+      textStyle: TextStyle(
+        fontSize: SizeConfig.getProportionateTextSize(24),
+        color: Theme.of(context).brightness == Brightness.dark
+            ? kWhiteColor
+            : kBlackColor,
+      ),
+      decoration: BoxDecoration(
+        color: const Color(0x84DEE7F0),
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: Colors.transparent),
+      ),
+    );
+    void onPress() {
+      if (isLogin) {
+        context.replace('/');
+      } else {
+        context.go('/gender');
+      }
+    }
+
     return Column(
       children: [
         SizedBox(height: SizeConfig.getProportionateScreenHeight(50)),
         Pinput(
-          // controller: controller.otp,
           length: 6,
           defaultPinTheme: defaultPinTheme,
+          keyboardType: TextInputType.number,
+          closeKeyboardWhenCompleted: true,
           focusedPinTheme: defaultPinTheme.copyWith(
             decoration: defaultPinTheme.decoration!.copyWith(
               border: Border.all(color: kPrimaryColor),
@@ -51,12 +64,13 @@ class OtpForm extends StatelessWidget {
           ],
         ),
         SizedBox(height: SizeConfig.getProportionateScreenHeight(45)),
-        DefaultButton(
-          text: "Continue",
+        DefaultButtonLoader(
+          isLoading: false,
+          text: AppLocalizations.of(context)!.continue_text,
           width: SizeConfig.getProportionateScreenWidth(350),
           height: SizeConfig.getProportionateScreenHeight(60),
           fontSize: SizeConfig.getProportionateTextSize(18),
-          press: () => context.go("/gender"),
+          press: onPress,
         ),
       ],
     );

@@ -1,0 +1,243 @@
+{
+  "@@locale": "ur",
+  "continue_text": "جاری رکھیں",
+  "@continue_text": {
+    "description": "جاری رکھیں بٹن"
+  },
+  "get_started": "شروع کریں",
+  "@get_started": {
+    "description": "شروع کریں بٹن"
+  },
+  "login": "لاگ ان کریں",
+  "@login": {
+    "description": "لاگ ان کریں بٹن"
+  },
+  "login_desc": "آئیے، Reach Out Rural کے مزے کا تجربہ کریں۔",
+  "@login_desc": {
+    "description": "لاگ ان کی تفصیل"
+  },
+  "phone_number": "فون نمبر",
+  "@phone_number": {
+    "description": "فون نمبر"
+  },
+  "register": "رجسٹر کریں",
+  "@register": {
+    "description": "رجسٹر کریں بٹن"
+  },
+  "register_desc": "آئیے، Reach Out Rural کے مزے کا تجربہ کریں۔",
+  "@register_desc": {
+    "description": "رجسٹریشن کی تفصیل"
+  },
+  "dont_have_account": "اکاؤنٹ نہیں ہے؟ ",
+  "@dont_have_account": {
+    "description": "اکاؤنٹ نہیں ہے؟ "
+  },
+  "have_account": "پہلے سے ہی اکاؤنٹ ہے؟ ",
+  "@have_account": {
+    "description": "پہلے سے ہی اکاؤنٹ ہے؟ "
+  },
+  "need_help": "مدد چاہیے؟",
+  "@need_help": {
+    "description": "مدد چاہیے؟"
+  },
+  "invalid_phone_number": "غلط موبائل نمبر",
+  "@invalid_phone_number": {
+    "description": "غلط موبائل نمبر"
+  },
+  "otp_verification": "OTP تصدیق",
+  "@otp_verification": {
+    "description": "OTP تصدیق"
+  },
+  "otp_verification_desc": "ہم نے آپ کا کوڈ بھیج دیا ہے ",
+  "@otp_verification_desc": {
+    "description": "OTP تصدیق کی تفصیل"
+  },
+  "otp_expire": "یہ کوڈ ختم ہو جائے گا ",
+  "@otp_expire": {
+    "description": "OTP کی میعاد ختم ہونا"
+  },
+  "resend_otp": "OTP کوڈ دوبارہ بھیجیں",
+  "@resend_otp": {
+    "description": "OTP کوڈ دوبارہ بھیجیں"
+  },
+  "what_is_gender": "آپ کا صنف کیا ہے؟",
+  "@what_is_gender": {
+    "description": "صنف"
+  },
+  "what_is_age": "آپ کی عمر کیا ہے؟",
+  "@what_is_age": {
+    "description": "عمر"
+  },
+  "male": "مرد",
+  "@male": {
+    "description": "مرد"
+  },
+  "female": "عورت",
+  "@female": {
+    "description": "عورت"
+  },
+  "other": "دیگر",
+  "@other": {
+    "description": "دیگر"
+  },
+  "what_is_height": "آپ کا قد کیا ہے؟",
+  "@what_is_height": {
+    "description": "قد"
+  },
+  "what_is_weight": "آپ کا وزن کیا ہے؟",
+  "@what_is_weight": {
+    "description": "وزن"
+  },
+  "what_is_blood_group": "آپ کا بلڈ گروپ کیا ہے؟",
+  "@what_is_blood_group": {
+    "description": "بلڈ گروپ"
+  },
+  "diagnosis": "تشخیص",
+  "@diagnosis": {
+    "description": "تشخیص"
+  },
+  "diagnosis_desc": "بٹن دبائیں اور بات کرنا شروع کریں...",
+  "@diagnosis_desc": {
+    "description": "تشخیص کی تفصیل"
+  },
+  "login_success": "کامیابی سے لاگ ان ہو گئے",
+  "@login_success": {
+    "description": "کامیابی سے لاگ ان ہو گئے"
+  },
+  "logged_out": "کامیابی سے لاگ آؤٹ ہو گئے",
+  "@logged_out": {
+    "description": "کامیابی سے لاگ آؤٹ ہو گئے"
+  },
+  "register_success": "کامیابی سے رجسٹر ہو گئے",
+  "@register_success": {
+    "description": "کامیابی سے رجسٹر ہو گئے"
+  },
+  "proflie_update_success": "پروفائل کامیابی سے اپ ڈیٹ ہو گئی",
+  "@proflie_update_success": {
+    "description": "پروفائل کامیابی سے اپ ڈیٹ ہو گئی"
+  },
+  "search_for_doctor": "ڈاکٹروں کو تلاش کریں...",
+  "@search_for_doctor": {
+    "description": "ڈاکٹروں کو تلاش کریں..."
+  },
+  "book_appointment": "اپائنٹمنٹ بک کریں",
+  "@book_appointment": {
+    "description": "اپائنٹمنٹ بک کریں"
+  },
+  "instant_vid_consultation": "فوری ویڈیو مشاورت",
+  "@instant_vid_consultation": {
+    "description": "فوری ویڈیو مشاورت"
+  },
+  "nearby_doctors": "قریبی ڈاکٹر",
+  "@nearby_doctors": {
+    "description": "قریبی ڈاکٹر"
+  },
+  "view_more_doctors": "مزید ڈاکٹروں کو دیکھیں",
+  "@view_more_doctors": {
+    "description": "مزید ڈاکٹروں کو دیکھیں"
+  },
+  "learn_more": "مزید جانیں",
+  "@learn_more": {
+    "description": "مزید جانیں"
+  },
+  "doctor_info": "ڈاکٹر کی معلومات",
+  "@doctor_info": {
+    "description": "ڈاکٹر کی معلومات"
+  },
+  "nearby_hospitals": "قریبی ہسپتال",
+  "@nearby_hospitals": {
+    "description": "قریبی ہسپتال"
+  },
+  "view_more_hospitals": "مزید ہسپتال دیکھیں",
+  "@view_more_hospitals": {
+    "description": "مزید ہسپتال دیکھیں"
+  },
+  "my_prescriptions": "میری نسخے",
+  "@my_prescriptions": {
+    "description": "میری نسخے"
+  },
+  "my_appointments": "میری اپائنٹمنٹس",
+  "@my_appointments": {
+    "description": "میری اپائنٹمنٹس"
+  },
+  "search_nearby_hospitals": "قریبی ہسپتال تلاش کریں",
+  "@search_nearby_hospitals": {
+    "description": "قریبی ہسپتال تلاش کریں"
+  },
+  "search_for_nearby_hospitals": "قریبی ہسپتال تلاش کریں...",
+  "@search_for_nearby_hospitals": {
+    "description": "قریبی ہسپتال تلاش کریں..."
+  },
+  "search_doctors": "ڈاکٹر تلاش کریں",
+  "@search_doctors": {
+    "description": "ڈاکٹر تلاش کریں"
+  },
+  "search_for_doctors": "ڈاکٹروں کو تلاش کریں...",
+  "@search_for_doctors": {
+    "description": "ڈاکٹروں کو تلاش کریں..."
+  },
+  "profile": "پروفائل",
+  "@profile": {
+    "description": "پروفائل"
+  },
+  "prescriptions": "نسخے",
+  "@prescriptions": {
+    "description": "نسخے"
+  },
+  "upload_prescription": "نسخہ اپ لوڈ کریں",
+  "@upload_prescription": {
+    "description": "نسخہ اپ لوڈ کریں"
+  },
+  "logout": "لاگ آؤٹ",
+  "@logout": {
+    "description": "لاگ آؤٹ"
+  },
+  "edit_profile": "پروفائل میں ترمیم کریں",
+  "@edit_profile": {
+    "description": "پروفائل میں ترمیم کریں"
+  },
+  "bio": "بایو",
+  "@bio": {
+    "description": "بایو"
+  },
+  "name": "نام",
+  "@name": {
+    "description": "نام"
+  },
+  "age": "عمر",
+  "@age": {
+    "description": "عمر"
+  },
+  "gender": "صنف",
+  "@gender": {
+    "description": "صنف"
+  },
+  "height": "قد",
+  "@height": {
+    "description": "قد"
+  },
+  "weight": "وزن",
+  "@weight": {
+    "description": "وزن"
+  },
+  "blood_group": "بلڈ گروپ",
+  "@blood_group": {
+    "description": "بلڈ گروپ"
+  },
+  "phone": "فون",
+  "@phone": {
+    "description": "فون"
+  },
+  "email": "ای میل",
+  "@email": {
+    "description": "ای میل"
+  },
+  "location": "مقام",
+  "@location": {
+    "description": "مقام"
+  },
+  "save": "محفوظ کریں",
+  "@save": {
+    "description": "محفوظ کریں"
+  }
+}

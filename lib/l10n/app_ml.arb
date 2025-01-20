@@ -1,0 +1,243 @@
+{
+  "@@locale": "ml",
+  "continue_text": "തുടരുക",
+  "@continue_text": {
+    "description": "തുടരുക ബട്ടൺ"
+  },
+  "get_started": "ആരംഭിക്കുക",
+  "@get_started": {
+    "description": "ആരംഭിക്കുക ബട്ടൺ"
+  },
+  "login": "ലോഗിൻ ചെയ്യുക",
+  "@login": {
+    "description": "ലോഗിൻ ചെയ്യുക ബട്ടൺ"
+  },
+  "login_desc": "Reach Out Rural ന്റെ സന്തോഷം അനുഭവിക്കാം.",
+  "@login_desc": {
+    "description": "ലോഗിൻ വിവരണം"
+  },
+  "phone_number": "ഫോൺ നമ്പർ",
+  "@phone_number": {
+    "description": "ഫോൺ നമ്പർ"
+  },
+  "register": "രജിസ്റ്റർ ചെയ്യുക",
+  "@register": {
+    "description": "രജിസ്റ്റർ ചെയ്യുക ബട്ടൺ"
+  },
+  "register_desc": "Reach Out Rural ന്റെ സന്തോഷം അനുഭവിക്കാം.",
+  "@register_desc": {
+    "description": "രജിസ്ട്രേഷൻ വിവരണം"
+  },
+  "dont_have_account": "അക്കൗണ്ട് ഇല്ലേ? ",
+  "@dont_have_account": {
+    "description": "അക്കൗണ്ട് ഇല്ലേ? "
+  },
+  "have_account": "ഇതിനകം ഒരു അക്കൗണ്ട് ഉണ്ടോ? ",
+  "@have_account": {
+    "description": "ഇതിനകം ഒരു അക്കൗണ്ട് ഉണ്ടോ? "
+  },
+  "need_help": "സഹായം ആവശ്യമുണ്ടോ?",
+  "@need_help": {
+    "description": "സഹായം ആവശ്യമുണ്ടോ?"
+  },
+  "invalid_phone_number": "അസാധുവായ മൊബൈൽ നമ്പർ",
+  "@invalid_phone_number": {
+    "description": "അസാധുവായ മൊബൈൽ നമ്പർ"
+  },
+  "otp_verification": "OTP പരിശോധന",
+  "@otp_verification": {
+    "description": "OTP പരിശോധന"
+  },
+  "otp_verification_desc": "ഞങ്ങൾ നിങ്ങളുടെ കോഡ് അയച്ചിട്ടുണ്ട് ",
+  "@otp_verification_desc": {
+    "description": "OTP പരിശോധന വിവരണം"
+  },
+  "otp_expire": "ഈ കോഡ് കാലഹരണപ്പെടും ",
+  "@otp_expire": {
+    "description": "OTP കാലഹരണപ്പെടൽ"
+  },
+  "resend_otp": "OTP കോഡ് വീണ്ടും അയയ്ക്കുക",
+  "@resend_otp": {
+    "description": "OTP കോഡ് വീണ്ടും അയയ്ക്കുക"
+  },
+  "what_is_gender": "നിങ്ങളുടെ ലിംഗം എന്താണ്?",
+  "@what_is_gender": {
+    "description": "ലിംഗം"
+  },
+  "what_is_age": "നിങ്ങളുടെ പ്രായം എന്താണ്?",
+  "@what_is_age": {
+    "description": "പ്രായം"
+  },
+  "male": "ആൺ",
+  "@male": {
+    "description": "ആൺ"
+  },
+  "female": "പെൺ",
+  "@female": {
+    "description": "പെൺ"
+  },
+  "other": "മറ്റുള്ളവ",
+  "@other": {
+    "description": "മറ്റുള്ളവ"
+  },
+  "what_is_height": "നിങ്ങളുടെ ഉയരം എന്താണ്?",
+  "@what_is_height": {
+    "description": "ഉയരം"
+  },
+  "what_is_weight": "നിങ്ങളുടെ ഭാരം എന്താണ്?",
+  "@what_is_weight": {
+    "description": "ഭാരം"
+  },
+  "what_is_blood_group": "നിങ്ങളുടെ രക്തഗ്രൂപ്പ് എന്താണ്?",
+  "@what_is_blood_group": {
+    "description": "രക്തഗ്രൂപ്പ്"
+  },
+  "diagnosis": "രോഗനിർണ്ണയം",
+  "@diagnosis": {
+    "description": "രോഗനിർണ്ണയം"
+  },
+  "diagnosis_desc": "ബട്ടൺ അമർത്തി സംസാരിക്കാൻ ആരംഭിക്കുക...",
+  "@diagnosis_desc": {
+    "description": "രോഗനിർണ്ണയ വിവരണം"
+  },
+  "login_success": "ലോഗിൻ വിജയകരമായി",
+  "@login_success": {
+    "description": "ലോഗിൻ വിജയകരമായി"
+  },
+  "logged_out": "ലോഗ്ഔട്ട് വിജയകരമായി",
+  "@logged_out": {
+    "description": "ലോഗ്ഔട്ട് വിജയകരമായി"
+  },
+  "register_success": "രജിസ്ട്രേഷൻ വിജയകരമായി",
+  "@register_success": {
+    "description": "രജിസ്ട്രേഷൻ വിജയകരമായി"
+  },
+  "proflie_update_success": "പ്രൊഫൈൽ വിജയകരമായി അപ്ടേറ്റ് ചെയ്തു",
+  "@proflie_update_success": {
+    "description": "പ്രൊഫൈൽ വിജയകരമായി അപ്ടേറ്റ് ചെയ്തു"
+  },
+  "search_for_doctor": "ഡോക്ടറെ തിരയുക...",
+  "@search_for_doctor": {
+    "description": "ഡോക്ടറെ തിരയുക..."
+  },
+  "book_appointment": "അപ്പോയിന്റ്മെന്റ് ബുക്ക് ചെയ്യുക",
+  "@book_appointment": {
+    "description": "അപ്പോയിന്റ്മെന്റ് ബുക്ക് ചെയ്യുക"
+  },
+  "instant_vid_consultation": "തൽക്ഷണ വീഡിയോ കൺസൾട്ടേഷൻ",
+  "@instant_vid_consultation": {
+    "description": "തൽക്ഷണ വീഡിയോ കൺസൾട്ടേഷൻ"
+  },
+  "nearby_doctors": "അടുത്തുള്ള ഡോക്ടർമാർ",
+  "@nearby_doctors": {
+    "description": "അടുത്തുള്ള ഡോക്ടർമാർ"
+  },
+  "view_more_doctors": "കൂടുതൽ ഡോക്ടർമാരെ കാണുക",
+  "@view_more_doctors": {
+    "description": "കൂടുതൽ ഡോക്ടർമാരെ കാണുക"
+  },
+  "learn_more": "കൂടുതലറിയാൻ",
+  "@learn_more": {
+    "description": "കൂടുതലറിയാൻ"
+  },
+  "doctor_info": "ഡോക്ടറുടെ വിവരങ്ങൾ",
+  "@doctor_info": {
+    "description": "ഡോക്ടറുടെ വിവരങ്ങൾ"
+  },
+  "nearby_hospitals": "അടുത്തുള്ള ആശുപത്രികൾ",
+  "@nearby_hospitals": {
+    "description": "അടുത്തുള്ള ആശുപത്രികൾ"
+  },
+  "view_more_hospitals": "കൂടുതൽ ആശുപത്രികൾ കാണുക",
+  "@view_more_hospitals": {
+    "description": "കൂടുതൽ ആശുപത്രികൾ കാണുക"
+  },
+  "my_prescriptions": "എന്റെ പ്രിസ്ക്രിപ്ഷനുകൾ",
+  "@my_prescriptions": {
+    "description": "എന്റെ പ്രിസ്ക്രിപ്ഷനുകൾ"
+  },
+  "my_appointments": "എന്റെ അപ്പോയിന്റ്മെന്റുകൾ",
+  "@my_appointments": {
+    "description": "എന്റെ അപ്പോയിന്റ്മെന്റുകൾ"
+  },
+  "search_nearby_hospitals": "അടുത്തുള്ള ആശുപത്രികൾ തിരയുക",
+  "@search_nearby_hospitals": {
+    "description": "അടുത്തുള്ള ആശുപത്രികൾ തിരയുക"
+  },
+  "search_for_nearby_hospitals": "അടുത്തുള്ള ആശുപത്രികൾ തിരയുക...",
+  "@search_for_nearby_hospitals": {
+    "description": "അടുത്തുള്ള ആശുപത്രികൾ തിരയുക..."
+  },
+  "search_doctors": "ഡോക്ടർമാരെ തിരയുക",
+  "@search_doctors": {
+    "description": "ഡോക്ടർമാരെ തിരയുക"
+  },
+  "search_for_doctors": "ഡോക്ടർമാരെ തിരയുക...",
+  "@search_for_doctors": {
+    "description": "ഡോക്ടർമാരെ തിരയുക..."
+  },
+  "profile": "പ്രൊഫൈൽ",
+  "@profile": {
+    "description": "പ്രൊഫൈൽ"
+  },
+  "prescriptions": "പ്രിസ്ക്രിപ്ഷനുകൾ",
+  "@prescriptions": {
+    "description": "പ്രിസ്ക്രിപ്ഷനുകൾ"
+  },
+  "upload_prescription": "പ്രിസ്ക്രിപ്ഷൻ അപ്‌ലോഡ് ചെയ്യുക",
+  "@upload_prescription": {
+    "description": "പ്രിസ്ക്രിപ്ഷൻ അപ്‌ലോഡ് ചെയ്യുക"
+  },
+  "logout": "ലോഗ് ഔട്ട്",
+  "@logout": {
+    "description": "ലോഗ് ഔട്ട്"
+  },
+  "edit_profile": "പ്രൊഫൈൽ എഡിറ്റ് ചെയ്യുക",
+  "@edit_profile": {
+    "description": "പ്രൊഫൈൽ എഡിറ്റ് ചെയ്യുക"
+  },
+  "bio": "ബയോ",
+  "@bio": {
+    "description": "ബയോ"
+  },
+  "name": "പേര്",
+  "@name": {
+    "description": "പേര്"
+  },
+  "age": "പ്രായം",
+  "@age": {
+    "description": "പ്രായം"
+  },
+  "gender": "ലിംഗം",
+  "@gender": {
+    "description": "ലിംഗം"
+  },
+  "height": "ഉയരം",
+  "@height": {
+    "description": "ഉയരം"
+  },
+  "weight": "ഭാരം",
+  "@weight": {
+    "description": "ഭാരം"
+  },
+  "blood_group": "രക്തഗ്രൂപ്പ്",
+  "@blood_group": {
+    "description": "രക്തഗ്രൂപ്പ്"
+  },
+  "phone": "ഫോൺ",
+  "@phone": {
+    "description": "ഫോൺ"
+  },
+  "email": "ഇമെയിൽ",
+  "@email": {
+    "description": "ഇമെയിൽ"
+  },
+  "location": "സ്ഥലം",
+  "@location": {
+    "description": "സ്ഥലം"
+  },
+  "save": "സേവ് ചെയ്യുക",
+  "@save": {
+    "description": "സേവ് ചെയ്യുക"
+  }
+}

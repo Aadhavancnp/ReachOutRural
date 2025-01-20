@@ -6,7 +6,7 @@ import 'package:reach_out_rural/constants/constants.dart';
 class ToastHelper {
   final FToast _fToast = FToast();
 
-  void init(BuildContext context) {
+  ToastHelper(BuildContext context) {
     _fToast.init(context);
   }
 
@@ -72,9 +72,13 @@ class ToastHelper {
           borderRadius: BorderRadius.circular(25.0),
           color: kErrorColor,
         ),
-        child: Text(
-          message,
-          style: const TextStyle(color: kWhiteColor),
+        child: Expanded(
+          child: Text(
+            message,
+            style: const TextStyle(color: kWhiteColor),
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.center,
+          ),
         ),
       ),
       gravity: ToastGravity.BOTTOM,
@@ -118,9 +122,13 @@ class ToastHelper {
             const SizedBox(
               width: 12.0,
             ),
-            Text(
-              message,
-              style: const TextStyle(color: kWhiteColor),
+            Expanded(
+              child: Text(
+                message,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(color: kWhiteColor),
+                textAlign: TextAlign.center,
+              ),
             ),
           ],
         ),
@@ -148,9 +156,13 @@ class ToastHelper {
             const SizedBox(
               width: 12.0,
             ),
-            Text(
-              message,
-              style: const TextStyle(color: kWhiteColor),
+            Expanded(
+              child: Text(
+                message,
+                style: const TextStyle(color: kWhiteColor),
+                overflow: TextOverflow.ellipsis,
+                textAlign: TextAlign.center,
+              ),
             ),
           ],
         ),

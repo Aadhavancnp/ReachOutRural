@@ -33,22 +33,18 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
   lottie: ^3.1.2
   go_router: ^14.2.7
   flutter_svg: ^2.0.10+1
   intl_phone_field: ^3.2.0
   pinput: ^5.0.0
   dio: ^5.7.0
-  intl: ^0.19.0
+  intl: any
   iconsax: ^0.0.8
   camera: ^0.11.0+2
-  path_provider: ^2.1.4
-  path: ^1.9.0
   file_picker: ^8.1.2
   speech_to_text: ^7.0.0
   avatar_glow: ^3.0.1
-  image_picker: ^1.1.2
   shared_preferences: ^2.3.2
   flutter_ruler_picker: ^1.0.6
   smooth_page_indicator: ^1.2.0+3
@@ -57,6 +53,16 @@ dependencies:
   geolocator: ^13.0.1
   permission_handler: ^11.3.1
   geocoding: ^3.0.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_tts: ^4.0.2
+  translator: ^1.0.0
+  animated_text_kit: ^4.2.2
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  formz: ^0.7.0
+  bloc: ^8.1.4
+  shimmer: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -78,6 +84,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  generate: true
 
   # To add assets to your application, add an assets section, like this:
   assets:
@@ -89,8 +96,8 @@ flutter:
     - family: OpenSans
       fonts:
         - asset: assets/fonts/Open_Sans/OpenSans-VariableFont.ttf
-        - asset: assets/fonts/Open_Sans/OpenSans-Italic-VariableFont.ttf
-          style: italic
+        # - asset: assets/fonts/Open_Sans/OpenSans-Italic-VariableFont.ttf
+        #   style: italic
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

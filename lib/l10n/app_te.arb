@@ -1,0 +1,243 @@
+{
+  "@@locale": "te",
+  "continue_text": "కొనసాగించు",
+  "@continue_text": {
+    "description": "కొనసాగించు బటన్"
+  },
+  "get_started": "ప్రారంభించండి",
+  "@get_started": {
+    "description": "ప్రారంభించండి బటన్"
+  },
+  "login": "లాగిన్",
+  "@login": {
+    "description": "లాగిన్ బటన్"
+  },
+  "login_desc": "Reach Out Rural ఆనందాన్ని అనుభవిద్దాం.",
+  "@login_desc": {
+    "description": "లాగిన్ వివరణ"
+  },
+  "phone_number": "ఫోన్ నంబర్",
+  "@phone_number": {
+    "description": "ఫోన్ నంబర్"
+  },
+  "register": "నమోదు చేసుకోండి",
+  "@register": {
+    "description": "నమోదు చేసుకోండి బటన్"
+  },
+  "register_desc": "Reach Out Rural ఆనందాన్ని అనుభవిద్దాం.",
+  "@register_desc": {
+    "description": "నమోదు వివరణ"
+  },
+  "dont_have_account": "ఖాతా లేదా? ",
+  "@dont_have_account": {
+    "description": "ఖాతా లేదా? "
+  },
+  "have_account": "ఇప్పటికే ఖాతా ఉందా? ",
+  "@have_account": {
+    "description": "ఇప్పటికే ఖాతా ఉందా? "
+  },
+  "need_help": "సహాయం కావాలా?",
+  "@need_help": {
+    "description": "సహాయం కావాలా?"
+  },
+  "invalid_phone_number": "చెల్లని మొబైల్ నంబర్",
+  "@invalid_phone_number": {
+    "description": "చెల్లని మొబైల్ నంబర్"
+  },
+  "otp_verification": "OTP ధృవీకరణ",
+  "@otp_verification": {
+    "description": "OTP ధృవీకరణ"
+  },
+  "otp_verification_desc": "మేము మీ కోడ్‌ను పంపాము ",
+  "@otp_verification_desc": {
+    "description": "OTP ధృవీకరణ వివరణ"
+  },
+  "otp_expire": "ఈ కోడ్ గడువు ముగుస్తుంది ",
+  "@otp_expire": {
+    "description": "OTP గడువు ముగింపు"
+  },
+  "resend_otp": "OTP కోడ్‌ను తిరిగి పంపండి",
+  "@resend_otp": {
+    "description": "OTP కోడ్‌ను తిరిగి పంపండి"
+  },
+  "what_is_gender": "మీ లింగం ఏమిటి?",
+  "@what_is_gender": {
+    "description": "లింగం"
+  },
+  "what_is_age": "మీ వయస్సు ఎంత?",
+  "@what_is_age": {
+    "description": "వయస్సు"
+  },
+  "male": "పురుషుడు",
+  "@male": {
+    "description": "పురుషుడు"
+  },
+  "female": "స్త్రీ",
+  "@female": {
+    "description": "స్త్రీ"
+  },
+  "other": "ఇతర",
+  "@other": {
+    "description": "ఇతర"
+  },
+  "what_is_height": "మీ ఎత్తు ఎంత?",
+  "@what_is_height": {
+    "description": "ఎత్తు"
+  },
+  "what_is_weight": "మీ బరువు ఎంత?",
+  "@what_is_weight": {
+    "description": "బరువు"
+  },
+  "what_is_blood_group": "మీ రక్త వర్గం ఏమిటి?",
+  "@what_is_blood_group": {
+    "description": "రక్త వర్గం"
+  },
+  "diagnosis": "రోగ నిర్ధారణ",
+  "@diagnosis": {
+    "description": "రోగ నిర్ధారణ"
+  },
+  "diagnosis_desc": "బటన్‌ను నొక్కి మాట్లాడటం ప్రారంభించండి...",
+  "@diagnosis_desc": {
+    "description": "రోగ నిర్ధారణ వివరణ"
+  },
+  "login_success": "లాగిన్ విజయవంతమైంది",
+  "@login_success": {
+    "description": "లాగిన్ విజయవంతమైంది"
+  },
+  "logged_out": "లాగ్ అవుట్ విజయవంతమైంది",
+  "@logged_out": {
+    "description": "లాగ్ అవుట్ విజయవంతమైంది"
+  },
+  "register_success": "నమోదు విజయవంతమైంది",
+  "@register_success": {
+    "description": "నమోదు విజయవంతమైంది"
+  },
+  "proflie_update_success": "ప్రొఫైల్ విజయవంతంగా నవీకరించబడింది",
+  "@proflie_update_success": {
+    "description": "ప్రొఫైల్ విజయవంతంగా నవీకరించబడింది"
+  },
+  "search_for_doctor": "వైద్యుల కోసం శోధించండి...",
+  "@search_for_doctor": {
+    "description": "వైద్యుల కోసం శోధించండి..."
+  },
+  "book_appointment": "న appuntamentoబుక్ చేయండి",
+  "@book_appointment": {
+    "description": "న appuntamentoబుక్ చేయండి"
+  },
+  "instant_vid_consultation": "తక్షణ వీడియో సంప్రదింపులు",
+  "@instant_vid_consultation": {
+    "description": "తక్షణ వీడియో సంప్రదింపులు"
+  },
+  "nearby_doctors": "సమీప వైద్యులు",
+  "@nearby_doctors": {
+    "description": "సమీప వైద్యులు"
+  },
+  "view_more_doctors": "మరిన్ని వైద్యులను చూడండి",
+  "@view_more_doctors": {
+    "description": "మరిన్ని వైద్యులను చూడండి"
+  },
+  "learn_more": "మరిన్ని తెలుసుకోండి",
+  "@learn_more": {
+    "description": "మరిన్ని తెలుసుకోండి"
+  },
+  "doctor_info": "వైద్యుడి సమాచారం",
+  "@doctor_info": {
+    "description": "వైద్యుడి సమాచారం"
+  },
+  "nearby_hospitals": "సమీప ఆసుపత్రులు",
+  "@nearby_hospitals": {
+    "description": "సమీప ఆసుపత్రులు"
+  },
+  "view_more_hospitals": "మరిన్ని ఆసుపత్రులను చూడండి",
+  "@view_more_hospitals": {
+    "description": "మరిన్ని ఆసుపత్రులను చూడండి"
+  },
+  "my_prescriptions": "నా ప్రిస్క్రిప్షన్లు",
+  "@my_prescriptions": {
+    "description": "నా ప్రిస్క్రిప్షన్లు"
+  },
+  "my_appointments": "నా నియామకాలు",
+  "@my_appointments": {
+    "description": "నా నియామకాలు"
+  },
+  "search_nearby_hospitals": "సమీప ఆసుపత్రుల కోసం శోధించండి",
+  "@search_nearby_hospitals": {
+    "description": "సమీప ఆసుపత్రుల కోసం శోధించండి"
+  },
+  "search_for_nearby_hospitals": "సమీప ఆసుపత్రుల కోసం శోధించండి...",
+  "@search_for_nearby_hospitals": {
+    "description": "సమీప ఆసుపత్రుల కోసం శోధించండి..."
+  },
+  "search_doctors": "వైద్యుల కోసం శోధించండి",
+  "@search_doctors": {
+    "description": "వైద్యుల కోసం శోధించండి"
+  },
+  "search_for_doctors": "వైద్యుల కోసం శోధించండి...",
+  "@search_for_doctors": {
+    "description": "వైద్యుల కోసం శోధించండి..."
+  },
+  "profile": "ప్రొఫైల్",
+  "@profile": {
+    "description": "ప్రొఫైల్"
+  },
+  "prescriptions": "ప్రిస్క్రిప్షన్లు",
+  "@prescriptions": {
+    "description": "ప్రిస్క్రిప్షన్లు"
+  },
+  "upload_prescription": "ప్రిస్క్రిప్షన్‌ను అప్‌లోడ్ చేయండి",
+  "@upload_prescription": {
+    "description": "ప్రిస్క్రిప్షన్‌ను అప్‌లోడ్ చేయండి"
+  },
+  "logout": "లాగ్ అవుట్",
+  "@logout": {
+    "description": "లాగ్ అవుట్"
+  },
+  "edit_profile": "ప్రొఫైల్‌ను సవరించండి",
+  "@edit_profile": {
+    "description": "ప్రొఫైల్‌ను సవరించండి"
+  },
+  "bio": "జీవిత చరిత్ర",
+  "@bio": {
+    "description": "జీవిత చరిత్ర"
+  },
+  "name": "పేరు",
+  "@name": {
+    "description": "పేరు"
+  },
+  "age": "వయస్సు",
+  "@age": {
+    "description": "వయస్సు"
+  },
+  "gender": "లింగం",
+  "@gender": {
+    "description": "లింగం"
+  },
+  "height": "ఎత్తు",
+  "@height": {
+    "description": "ఎత్తు"
+  },
+  "weight": "బరువు",
+  "@weight": {
+    "description": "బరువు"
+  },
+  "blood_group": "రక్త వర్గం",
+  "@blood_group": {
+    "description": "రక్త వర్గం"
+  },
+  "phone": "ఫోన్",
+  "@phone": {
+    "description": "ఫోన్"
+  },
+  "email": "ఇమెయిల్",
+  "@email": {
+    "description": "ఇమెయిల్"
+  },
+  "location": "స్థానం",
+  "@location": {
+    "description": "స్థానం"
+  },
+  "save": "సేవ్ చేయి",
+  "@save": {
+    "description": "సేవ్ చేయి"
+  }
+}

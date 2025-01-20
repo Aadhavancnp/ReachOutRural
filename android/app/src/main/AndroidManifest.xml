@@ -13,7 +13,7 @@
 
     <!-- External storage permissions -->
     <!-- For Android 9 (API level 28) and lower -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <!-- For Android 10 (API level 29) and higher -->
@@ -28,7 +28,7 @@
     <application
         android:label="reach_out_rural"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@drawable/medical_app_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -70,5 +70,9 @@
         <intent>
             <action android:name="android.speech.RecognitionService" />
         </intent>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
     </queries>
+    
 </manifest>

@@ -1,0 +1,243 @@
+{
+  "@@locale": "bn",
+  "continue_text": "চালিয়ে যান",
+  "@continue_text": {
+    "description": "চালিয়ে যান বোতাম"
+  },
+  "get_started": "শুরু করুন",
+  "@get_started": {
+    "description": "শুরু করুন বোতাম"
+  },
+  "login": "লগইন করুন",
+  "@login": {
+    "description": "লগইন করুন বোতাম"
+  },
+  "login_desc": "আসুন, Reach Out Rural-এর আনন্দ উপভোগ করি।",
+  "@login_desc": {
+    "description": "লগইন বর্ণনা"
+  },
+  "phone_number": "ফোন নম্বর",
+  "@phone_number": {
+    "description": "ফোন নম্বর"
+  },
+  "register": "নিবন্ধন করুন",
+  "@register": {
+    "description": "নিবন্ধন করুন বোতাম"
+  },
+  "register_desc": "আসুন, Reach Out Rural-এর আনন্দ উপভোগ করি।",
+  "@register_desc": {
+    "description": "নিবন্ধন বর্ণনা"
+  },
+  "dont_have_account": "অ্যাকাউন্ট নেই? ",
+  "@dont_have_account": {
+    "description": "অ্যাকাউন্ট নেই? "
+  },
+  "have_account": "ইতিমধ্যে অ্যাকাউন্ট আছে? ",
+  "@have_account": {
+    "description": "ইতিমধ্যে অ্যাকাউন্ট আছে? "
+  },
+  "need_help": "সাহায্য দরকার?",
+  "@need_help": {
+    "description": "সাহায্য দরকার?"
+  },
+  "invalid_phone_number": "অবৈধ মোবাইল নম্বর",
+  "@invalid_phone_number": {
+    "description": "অবৈধ মোবাইল নম্বর"
+  },
+  "otp_verification": "OTP যাচাইকরণ",
+  "@otp_verification": {
+    "description": "OTP যাচাইকরণ"
+  },
+  "otp_verification_desc": "আমরা আপনার কোড পাঠিয়েছি ",
+  "@otp_verification_desc": {
+    "description": "OTP যাচাইকরণ বর্ণনা"
+  },
+  "otp_expire": "এই কোডের মেয়াদ শেষ হবে ",
+  "@otp_expire": {
+    "description": "OTP মেয়াদ উত্তীর্ণ"
+  },
+  "resend_otp": "OTP কোড পুনরায় পাঠান",
+  "@resend_otp": {
+    "description": "OTP কোড পুনরায় পাঠান"
+  },
+  "what_is_gender": "আপনার লিঙ্গ কি?",
+  "@what_is_gender": {
+    "description": "লিঙ্গ"
+  },
+  "what_is_age": "আপনার বয়স কি?",
+  "@what_is_age": {
+    "description": "বয়স"
+  },
+  "male": "পুরুষ",
+  "@male": {
+    "description": "পুরুষ"
+  },
+  "female": "মহিলা",
+  "@female": {
+    "description": "মহিলা"
+  },
+  "other": "অন্যান্য",
+  "@other": {
+    "description": "অন্যান্য"
+  },
+  "what_is_height": "আপনার উচ্চতা কত?",
+  "@what_is_height": {
+    "description": "উচ্চতা"
+  },
+  "what_is_weight": "আপনার ওজন কত?",
+  "@what_is_weight": {
+    "description": "ওজন"
+  },
+  "what_is_blood_group": "আপনার রক্তের গ্রুপ কি?",
+  "@what_is_blood_group": {
+    "description": "রক্তের গ্রুপ"
+  },
+  "diagnosis": "রোগ নির্ণয়",
+  "@diagnosis": {
+    "description": "রোগ নির্ণয়"
+  },
+  "diagnosis_desc": "বোতামটি টিপুন এবং কথা বলতে শুরু করুন...",
+  "@diagnosis_desc": {
+    "description": "রোগ নির্ণয়ের বর্ণনা"
+  },
+  "login_success": "সফলভাবে লগ ইন করা হয়েছে",
+  "@login_success": {
+    "description": "সফলভাবে লগ ইন করা হয়েছে"
+  },
+  "logged_out": "সফলভাবে লগ আউট করা হয়েছে",
+  "@logged_out": {
+    "description": "সফলভাবে লগ আউট করা হয়েছে"
+  },
+  "register_success": "সফলভাবে নিবন্ধন করা হয়েছে",
+  "@register_success": {
+    "description": "সফলভাবে নিবন্ধন করা হয়েছে"
+  },
+  "proflie_update_success": "প্রোফাইল সফলভাবে আপডেট করা হয়েছে",
+  "@proflie_update_success": {
+    "description": "প্রোফাইল সফলভাবে আপডেট করা হয়েছে"
+  },
+  "search_for_doctor": "ডাক্তার খুঁজুন...",
+  "@search_for_doctor": {
+    "description": "ডাক্তার খুঁজুন..."
+  },
+  "book_appointment": "অ্যাপয়েন্টমেন্ট বুক করুন",
+  "@book_appointment": {
+    "description": "অ্যাপয়েন্টমেন্ট বুক করুন"
+  },
+  "instant_vid_consultation": "তাৎক্ষণিক ভিডিও পরামর্শ",
+  "@instant_vid_consultation": {
+    "description": "তাৎক্ষণিক ভিডিও পরামর্শ"
+  },
+  "nearby_doctors": "কাছাকাছি ডাক্তার",
+  "@nearby_doctors": {
+    "description": "কাছাকাছি ডাক্তার"
+  },
+  "view_more_doctors": "আরও ডাক্তার দেখুন",
+  "@view_more_doctors": {
+    "description": "আরও ডাক্তার দেখুন"
+  },
+  "learn_more": "আরও জানুন",
+  "@learn_more": {
+    "description": "আরও জানুন"
+  },
+  "doctor_info": "ডাক্তারের তথ্য",
+  "@doctor_info": {
+    "description": "ডাক্তারের তথ্য"
+  },
+  "nearby_hospitals": "কাছাকাছি হাসপাতাল",
+  "@nearby_hospitals": {
+    "description": "কাছাকাছি হাসপাতাল"
+  },
+  "view_more_hospitals": "আরও হাসপাতাল দেখুন",
+  "@view_more_hospitals": {
+    "description": "আরও হাসপাতাল দেখুন"
+  },
+  "my_prescriptions": "আমার প্রেসক্রিপশন",
+  "@my_prescriptions": {
+    "description": "আমার প্রেসক্রিপশন"
+  },
+  "my_appointments": "আমার অ্যাপয়েন্টমেন্ট",
+  "@my_appointments": {
+    "description": "আমার অ্যাপয়েন্টমেন্ট"
+  },
+  "search_nearby_hospitals": "কাছাকাছি হাসপাতাল খুঁজুন",
+  "@search_nearby_hospitals": {
+    "description": "কাছাকাছি হাসপাতাল খুঁজুন"
+  },
+  "search_for_nearby_hospitals": "কাছাকাছি হাসপাতাল খুঁজুন...",
+  "@search_for_nearby_hospitals": {
+    "description": "কাছাকাছি হাসপাতাল খুঁজুন..."
+  },
+  "search_doctors": "ডাক্তার খুঁজুন",
+  "@search_doctors": {
+    "description": "ডাক্তার খুঁজুন"
+  },
+  "search_for_doctors": "ডাক্তার খুঁজুন...",
+  "@search_for_doctors": {
+    "description": "ডাক্তার খুঁজুন..."
+  },
+  "profile": "প্রোফাইল",
+  "@profile": {
+    "description": "প্রোফাইল"
+  },
+  "prescriptions": "প্রেসক্রিপশন",
+  "@prescriptions": {
+    "description": "প্রেসক্রিপশন"
+  },
+  "upload_prescription": "প্রেসক্রিপশন আপলোড করুন",
+  "@upload_prescription": {
+    "description": "প্রেসক্রিপশন আপলোড করুন"
+  },
+  "logout": "লগ আউট",
+  "@logout": {
+    "description": "লগ আউট"
+  },
+  "edit_profile": "প্রোফাইল সম্পাদনা করুন",
+  "@edit_profile": {
+    "description": "প্রোফাইল সম্পাদনা করুন"
+  },
+  "bio": "জীবনী",
+  "@bio": {
+    "description": "জীবনী"
+  },
+  "name": "নাম",
+  "@name": {
+    "description": "নাম"
+  },
+  "age": "বয়স",
+  "@age": {
+    "description": "বয়স"
+  },
+  "gender": "লিঙ্গ",
+  "@gender": {
+    "description": "লিঙ্গ"
+  },
+  "height": "উচ্চতা",
+  "@height": {
+    "description": "উচ্চতা"
+  },
+  "weight": "ওজন",
+  "@weight": {
+    "description": "ওজন"
+  },
+  "blood_group": "রক্তের গ্রুপ",
+  "@blood_group": {
+    "description": "রক্তের গ্রুপ"
+  },
+  "phone": "ফোন",
+  "@phone": {
+    "description": "ফোন"
+  },
+  "email": "ইমেল",
+  "@email": {
+    "description": "ইমেল"
+  },
+  "location": "অবস্থান",
+  "@location": {
+    "description": "অবস্থান"
+  },
+  "save": "সংরক্ষণ করুন",
+  "@save": {
+    "description": "সংরক্ষণ করুন"
+  }
+}

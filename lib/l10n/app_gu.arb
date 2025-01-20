@@ -1,0 +1,243 @@
+{
+  "@@locale": "gu",
+  "continue_text": "ચાલુ રાખો",
+  "@continue_text": {
+    "description": "ચાલુ રાખો બટન"
+  },
+  "get_started": "શરૂ કરો",
+  "@get_started": {
+    "description": "શરૂ કરો બટન"
+  },
+  "login": "લૉગિન કરો",
+  "@login": {
+    "description": "લૉગિન કરો બટન"
+  },
+  "login_desc": "ચાલો, Reach Out Rural નો આનંદ માણીએ.",
+  "@login_desc": {
+    "description": "લૉગિન વર્ણન"
+  },
+  "phone_number": "ફોન નંબર",
+  "@phone_number": {
+    "description": "ફોન નંબર"
+  },
+  "register": "નોંધણી કરો",
+  "@register": {
+    "description": "નોંધણી કરો બટન"
+  },
+  "register_desc": "ચાલો, Reach Out Rural નો આનંદ માણીએ.",
+  "@register_desc": {
+    "description": "નોંધણી વર્ણન"
+  },
+  "dont_have_account": "એકાઉન્ટ નથી? ",
+  "@dont_have_account": {
+    "description": "એકાઉન્ટ નથી? "
+  },
+  "have_account": "પહેલેથી જ એકાઉન્ટ છે? ",
+  "@have_account": {
+    "description": "પહેલેથી જ એકાઉન્ટ છે? "
+  },
+  "need_help": "મદદની જરૂર છે?",
+  "@need_help": {
+    "description": "મદદની જરૂર છે?"
+  },
+  "invalid_phone_number": "અમાન્ય મોબાઇલ નંબર",
+  "@invalid_phone_number": {
+    "description": "અમાન્ય મોબાઇલ નંબર"
+  },
+  "otp_verification": "OTP ચકાસણી",
+  "@otp_verification": {
+    "description": "OTP ચકાસણી"
+  },
+  "otp_verification_desc": "અમે તમારો કોડ મોકલ્યો છે ",
+  "@otp_verification_desc": {
+    "description": "OTP ચકાસણી વર્ણન"
+  },
+  "otp_expire": "આ કોડ સમાપ્ત થશે ",
+  "@otp_expire": {
+    "description": "OTP સમાપ્તિ"
+  },
+  "resend_otp": "OTP કોડ ફરીથી મોકલો",
+  "@resend_otp": {
+    "description": "OTP કોડ ફરીથી મોકલો"
+  },
+  "what_is_gender": "તમારું લિંગ શું છે?",
+  "@what_is_gender": {
+    "description": "લિંગ"
+  },
+  "what_is_age": "તમારી ઉંમર શું છે?",
+  "@what_is_age": {
+    "description": "ઉંમર"
+  },
+  "male": "પુરુષ",
+  "@male": {
+    "description": "પુરુષ"
+  },
+  "female": "સ્ત્રી",
+  "@female": {
+    "description": "સ્ત્રી"
+  },
+  "other": "અન્ય",
+  "@other": {
+    "description": "અન્ય"
+  },
+  "what_is_height": "તમારી ઊંચાઈ શું છે?",
+  "@what_is_height": {
+    "description": "ઊંચાઈ"
+  },
+  "what_is_weight": "તમારું વજન શું છે?",
+  "@what_is_weight": {
+    "description": "વજન"
+  },
+  "what_is_blood_group": "તમારો બ્લડ ગ્રુપ શું છે?",
+  "@what_is_blood_group": {
+    "description": "બ્લડ ગ્રુપ"
+  },
+  "diagnosis": "નિદાન",
+  "@diagnosis": {
+    "description": "નિદાન"
+  },
+  "diagnosis_desc": "બટન દબાવો અને વાત કરવાનું શરૂ કરો...",
+  "@diagnosis_desc": {
+    "description": "નિદાન વર્ણન"
+  },
+  "login_success": "સફળતાપૂર્વક લૉગિન થયા",
+  "@login_success": {
+    "description": "સફળતાપૂર્વક લૉગિન થયા"
+  },
+  "logged_out": "સફળતાપૂર્વક લૉગઆઉટ થયા",
+  "@logged_out": {
+    "description": "સફળતાપૂર્વક લૉગઆઉટ થયા"
+  },
+  "register_success": "સફળતાપૂર્વક નોંધણી થઈ",
+  "@register_success": {
+    "description": "સફળતાપૂર્વક નોંધણી થઈ"
+  },
+  "proflie_update_success": "પ્રોફાઇલ સફળતાપૂર્વક અપડેટ થઈ",
+  "@proflie_update_success": {
+    "description": "પ્રોફાઇલ સફળતાપૂર્વક અપડેટ થઈ"
+  },
+  "search_for_doctor": "ડોક્ટર શોધો...",
+  "@search_for_doctor": {
+    "description": "ડોક્ટર શોધો..."
+  },
+  "book_appointment": "એપોઇન્ટમેન્ટ બુક કરો",
+  "@book_appointment": {
+    "description": "એપોઇન્ટમેન્ટ બુક કરો"
+  },
+  "instant_vid_consultation": "ત્વરિત વિડિઓ કન્સલ્ટેશન",
+  "@instant_vid_consultation": {
+    "description": "ત્વરિત વિડિઓ કન્સલ્ટેશન"
+  },
+  "nearby_doctors": "નજીકના ડોક્ટર",
+  "@nearby_doctors": {
+    "description": "નજીકના ડોક્ટર"
+  },
+  "view_more_doctors": "વધુ ડોક્ટર જુઓ",
+  "@view_more_doctors": {
+    "description": "વધુ ડોક્ટર જુઓ"
+  },
+  "learn_more": "વધુ જાણો",
+  "@learn_more": {
+    "description": "વધુ જાણો"
+  },
+  "doctor_info": "ડોક્ટર માહિતી",
+  "@doctor_info": {
+    "description": "ડોક્ટર માહિતી"
+  },
+  "nearby_hospitals": "નજીકની હોસ્પિટલો",
+  "@nearby_hospitals": {
+    "description": "નજીકની હોસ્પિટલો"
+  },
+  "view_more_hospitals": "વધુ હોસ્પિટલો જુઓ",
+  "@view_more_hospitals": {
+    "description": "વધુ હોસ્પિટલો જુઓ"
+  },
+  "my_prescriptions": "મારા પ્રિસ્ક્રિપ્શન",
+  "@my_prescriptions": {
+    "description": "મારા પ્રિસ્ક્રિપ્શન"
+  },
+  "my_appointments": "મારા એપોઇન્ટમેન્ટ",
+  "@my_appointments": {
+    "description": "મારા એપોઇન્ટમેન્ટ"
+  },
+  "search_nearby_hospitals": "નજીકની હોસ્પિટલો શોધો",
+  "@search_nearby_hospitals": {
+    "description": "નજીકની હોસ્પિટલો શોધો"
+  },
+  "search_for_nearby_hospitals": "નજીકની હોસ્પિટલો શોધો...",
+  "@search_for_nearby_hospitals": {
+    "description": "નજીકની હોસ્પિટલો શોધો..."
+  },
+  "search_doctors": "ડોક્ટર શોધો",
+  "@search_doctors": {
+    "description": "ડોક્ટર શોધો"
+  },
+  "search_for_doctors": "ડોક્ટર શોધો...",
+  "@search_for_doctors": {
+    "description": "ડોક્ટર શોધો..."
+  },
+  "profile": "પ્રોફાઇલ",
+  "@profile": {
+    "description": "પ્રોફાઇલ"
+  },
+  "prescriptions": "પ્રિસ્ક્રિપ્શન",
+  "@prescriptions": {
+    "description": "પ્રિસ્ક્રિપ્શન"
+  },
+  "upload_prescription": "પ્રિસ્ક્રિપ્શન અપલોડ કરો",
+  "@upload_prescription": {
+    "description": "પ્રિસ્ક્રિપ્શન અપલોડ કરો"
+  },
+  "logout": "લૉગઆઉટ",
+  "@logout": {
+    "description": "લૉગઆઉટ"
+  },
+  "edit_profile": "પ્રોફાઇલ સંપાદિત કરો",
+  "@edit_profile": {
+    "description": "પ્રોફાઇલ સંપાદિત કરો"
+  },
+  "bio": "જીવનચરિત્ર",
+  "@bio": {
+    "description": "જીવનચરિત્ર"
+  },
+  "name": "નામ",
+  "@name": {
+    "description": "નામ"
+  },
+  "age": "ઉંમર",
+  "@age": {
+    "description": "ઉંમર"
+  },
+  "gender": "લિંગ",
+  "@gender": {
+    "description": "લિંગ"
+  },
+  "height": "ઊંચાઈ",
+  "@height": {
+    "description": "ઊંચાઈ"
+  },
+  "weight": "વજન",
+  "@weight": {
+    "description": "વજન"
+  },
+  "blood_group": "બ્લડ ગ્રુપ",
+  "@blood_group": {
+    "description": "બ્લડ ગ્રુપ"
+  },
+  "phone": "ફોન",
+  "@phone": {
+    "description": "ફોન"
+  },
+  "email": "ઈમેલ",
+  "@email": {
+    "description": "ઈમેલ"
+  },
+  "location": "સ્થાન",
+  "@location": {
+    "description": "સ્થાન"
+  },
+  "save": "સાચવો",
+  "@save": {
+    "description": "સાચવો"
+  }
+}

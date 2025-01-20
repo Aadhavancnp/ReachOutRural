@@ -1,0 +1,243 @@
+{
+  "@@locale": "mr",
+  "continue_text": "चालू ठेवा",
+  "@continue_text": {
+    "description": "चालू ठेवा बटण"
+  },
+  "get_started": "सुरू करा",
+  "@get_started": {
+    "description": "सुरू करा बटण"
+  },
+  "login": "लॉगिन करा",
+  "@login": {
+    "description": "लॉगिन करा बटण"
+  },
+  "login_desc": "चला, Reach Out Rural चा आनंद घेऊया.",
+  "@login_desc": {
+    "description": "लॉगिन वर्णन"
+  },
+  "phone_number": "फोन नंबर",
+  "@phone_number": {
+    "description": "फोन नंबर"
+  },
+  "register": "नोंदणी करा",
+  "@register": {
+    "description": "नोंदणी करा बटण"
+  },
+  "register_desc": "चला, Reach Out Rural चा आनंद घेऊया.",
+  "@register_desc": {
+    "description": "नोंदणी वर्णन"
+  },
+  "dont_have_account": "खाते नाही? ",
+  "@dont_have_account": {
+    "description": "खाते नाही? "
+  },
+  "have_account": "आधीच खाते आहे? ",
+  "@have_account": {
+    "description": "आधीच खाते आहे? "
+  },
+  "need_help": "मदत हवी आहे?",
+  "@need_help": {
+    "description": "मदत हवी आहे?"
+  },
+  "invalid_phone_number": "अवैध मोबाइल नंबर",
+  "@invalid_phone_number": {
+    "description": "अवैध मोबाइल नंबर"
+  },
+  "otp_verification": "OTP पडताळणी",
+  "@otp_verification": {
+    "description": "OTP पडताळणी"
+  },
+  "otp_verification_desc": "आम्ही तुमचा कोड पाठवला आहे ",
+  "@otp_verification_desc": {
+    "description": "OTP पडताळणी वर्णन"
+  },
+  "otp_expire": "हा कोड कालबाह्य होईल ",
+  "@otp_expire": {
+    "description": "OTP कालबाह्यता"
+  },
+  "resend_otp": "OTP कोड पुन्हा पाठवा",
+  "@resend_otp": {
+    "description": "OTP कोड पुन्हा पाठवा"
+  },
+  "what_is_gender": "तुमचे लिंग काय आहे?",
+  "@what_is_gender": {
+    "description": "लिंग"
+  },
+  "what_is_age": "तुमचे वय काय आहे?",
+  "@what_is_age": {
+    "description": "वय"
+  },
+  "male": "पुरुष",
+  "@male": {
+    "description": "पुरुष"
+  },
+  "female": "महिला",
+  "@female": {
+    "description": "महिला"
+  },
+  "other": "इतर",
+  "@other": {
+    "description": "इतर"
+  },
+  "what_is_height": "तुमची उंची किती आहे?",
+  "@what_is_height": {
+    "description": "उंची"
+  },
+  "what_is_weight": "तुमचे वजन किती आहे?",
+  "@what_is_weight": {
+    "description": "वजन"
+  },
+  "what_is_blood_group": "तुमचा रक्तगट काय आहे?",
+  "@what_is_blood_group": {
+    "description": "रक्तगट"
+  },
+  "diagnosis": "निदान",
+  "@diagnosis": {
+    "description": "निदान"
+  },
+  "diagnosis_desc": "बटण दाबा आणि बोलणे सुरू करा...",
+  "@diagnosis_desc": {
+    "description": "निदान वर्णन"
+  },
+  "login_success": "यशस्वीरित्या लॉगिन केले",
+  "@login_success": {
+    "description": "यशस्वीरित्या लॉगिन केले"
+  },
+  "logged_out": "यशस्वीरित्या लॉग आउट केले",
+  "@logged_out": {
+    "description": "यशस्वीरित्या लॉग आउट केले"
+  },
+  "register_success": "यशस्वीरित्या नोंदणी झाली",
+  "@register_success": {
+    "description": "यशस्वीरित्या नोंदणी झाली"
+  },
+  "proflie_update_success": "प्रोफाइल यशस्वीरित्या अपडेट झाली",
+  "@proflie_update_success": {
+    "description": "प्रोफाइल यशस्वीरित्या अपडेट झाली"
+  },
+  "search_for_doctor": "डॉक्टर शोधा...",
+  "@search_for_doctor": {
+    "description": "डॉक्टर शोधा..."
+  },
+  "book_appointment": "अपॉइंटमेंट बुक करा",
+  "@book_appointment": {
+    "description": "अपॉइंटमेंट बुक करा"
+  },
+  "instant_vid_consultation": "त्वरित व्हिडिओ सल्लामसलत",
+  "@instant_vid_consultation": {
+    "description": "त्वरित व्हिडिओ सल्लामसलत"
+  },
+  "nearby_doctors": "जवळचे डॉक्टर",
+  "@nearby_doctors": {
+    "description": "जवळचे डॉक्टर"
+  },
+  "view_more_doctors": "अधिक डॉक्टर पहा",
+  "@view_more_doctors": {
+    "description": "अधिक डॉक्टर पहा"
+  },
+  "learn_more": "अधिक जाणून घ्या",
+  "@learn_more": {
+    "description": "अधिक जाणून घ्या"
+  },
+  "doctor_info": "डॉक्टरची माहिती",
+  "@doctor_info": {
+    "description": "डॉक्टरची माहिती"
+  },
+  "nearby_hospitals": "जवळची रुग्णालये",
+  "@nearby_hospitals": {
+    "description": "जवळची रुग्णालये"
+  },
+  "view_more_hospitals": "अधिक रुग्णालये पहा",
+  "@view_more_hospitals": {
+    "description": "अधिक रुग्णालये पहा"
+  },
+  "my_prescriptions": "माझी प्रिस्क्रिप्शन",
+  "@my_prescriptions": {
+    "description": "माझी प्रिस्क्रिप्शन"
+  },
+  "my_appointments": "माझी अपॉइंटमेंट",
+  "@my_appointments": {
+    "description": "माझी अपॉइंटमेंट"
+  },
+  "search_nearby_hospitals": "जवळची रुग्णालये शोधा",
+  "@search_nearby_hospitals": {
+    "description": "जवळची रुग्णालये शोधा"
+  },
+  "search_for_nearby_hospitals": "जवळची रुग्णालये शोधा...",
+  "@search_for_nearby_hospitals": {
+    "description": "जवळची रुग्णालये शोधा..."
+  },
+  "search_doctors": "डॉक्टर शोधा",
+  "@search_doctors": {
+    "description": "डॉक्टर शोधा"
+  },
+  "search_for_doctors": "डॉक्टर शोधा...",
+  "@search_for_doctors": {
+    "description": "डॉक्टर शोधा..."
+  },
+  "profile": "प्रोफाइल",
+  "@profile": {
+    "description": "प्रोफाइल"
+  },
+  "prescriptions": "प्रिस्क्रिप्शन",
+  "@prescriptions": {
+    "description": "प्रिस्क्रिप्शन"
+  },
+  "upload_prescription": "प्रिस्क्रिप्शन अपलोड करा",
+  "@upload_prescription": {
+    "description": "प्रिस्क्रिप्शन अपलोड करा"
+  },
+  "logout": "लॉग आउट",
+  "@logout": {
+    "description": "लॉग आउट"
+  },
+  "edit_profile": "प्रोफाइल संपादित करा",
+  "@edit_profile": {
+    "description": "प्रोफाइल संपादित करा"
+  },
+  "bio": "चरित्र",
+  "@bio": {
+    "description": "चरित्र"
+  },
+  "name": "नाव",
+  "@name": {
+    "description": "नाव"
+  },
+  "age": "वय",
+  "@age": {
+    "description": "वय"
+  },
+  "gender": "लिंग",
+  "@gender": {
+    "description": "लिंग"
+  },
+  "height": "उंची",
+  "@height": {
+    "description": "उंची"
+  },
+  "weight": "वजन",
+  "@weight": {
+    "description": "वजन"
+  },
+  "blood_group": "रक्तगट",
+  "@blood_group": {
+    "description": "रक्तगट"
+  },
+  "phone": "फोन",
+  "@phone": {
+    "description": "फोन"
+  },
+  "email": "ईमेल",
+  "@email": {
+    "description": "ईमेल"
+  },
+  "location": "स्थान",
+  "@location": {
+    "description": "स्थान"
+  },
+  "save": "सेव्ह करा",
+  "@save": {
+    "description": "सेव्ह करा"
+  }
+}
