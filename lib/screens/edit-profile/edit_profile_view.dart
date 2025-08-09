@@ -8,7 +8,7 @@ import 'package:reach_out_rural/screens/edit-profile/cubit/editprofile_cubit.dar
 import 'package:reach_out_rural/utils/size_config.dart';
 import 'package:reach_out_rural/utils/toast.dart';
 import 'package:reach_out_rural/widgets/default_icon_button.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 
 class EditProfileView extends StatelessWidget {
   const EditProfileView({super.key});

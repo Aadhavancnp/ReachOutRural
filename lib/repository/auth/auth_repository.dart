@@ -31,13 +31,21 @@ class AuthenticationRepository {
       final response = await _apiService.patientLogin({'phonenumber': phone});
       if (response.statusCode == 200) {
         await _prefsHelper.setString('token', response.data['token']);
+        await _prefsHelper.setString('phone', phone);
         _controller.add(AuthenticationStatus.authenticated);
         return;
+      } else if (response.statusCode == 400) {
+        final errorMessage = response.data['error'] ?? 'Invalid phone number';
+        throw LogInException(errorMessage);
       } else {
-        throw LogInException(response.data['error']);
+        throw LogInException(
+            'Login failed with status: ${response.statusCode}');
       }
-    } on AuthException catch (e) {
-      throw LogInException(e.message);
+    } catch (e) {
+      if (e is LogInException) {
+        rethrow;
+      }
+      throw LogInException('Unexpected error occurred: $e');
     }
   }
 
@@ -47,13 +55,21 @@ class AuthenticationRepository {
           await _apiService.patientRegister({'phonenumber': phone});
       if (response.statusCode == 201) {
         await _prefsHelper.setString('token', response.data['token']);
+        await _prefsHelper.setString('phone', phone);
         _controller.add(AuthenticationStatus.authenticated);
         return;
+      } else if (response.statusCode == 400) {
+        final errorMessage = response.data['error'] ?? 'Invalid phone number';
+        throw SignUpException(errorMessage);
       } else {
-        throw SignUpException(response.data['error']);
+        throw SignUpException(
+            'Registration failed with status: ${response.statusCode}');
       }
-    } on AuthException catch (e) {
-      throw SignUpException(e.message);
+    } catch (e) {
+      if (e is SignUpException) {
+        rethrow;
+      }
+      throw SignUpException('Unexpected error occurred: $e');
     }
   }
 

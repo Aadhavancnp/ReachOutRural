@@ -28,6 +28,29 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires access to the camera to capture photos and videos.</string>
+
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app requires access to the microphone for audio recording.</string>
+
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app requires access to speech recognition for voice commands.</string>
+
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requires access to the photo library to select and upload photos.</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app requires access to your location while using the app.</string>
+
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app requires access to your location even when running in the background.</string>
+
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app requires access to your location at all times.</string>
+
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app requires access to your media library to play music.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

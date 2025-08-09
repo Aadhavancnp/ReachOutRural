@@ -6,7 +6,7 @@ import 'package:reach_out_rural/constants/constants.dart';
 import 'package:reach_out_rural/screens/age/cubit/age_cubit.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
 import 'package:reach_out_rural/widgets/default_icon_button.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 
 class AgeSelection extends StatelessWidget {
   const AgeSelection({super.key});

@@ -8,7 +8,7 @@ import 'package:reach_out_rural/repository/user/user_patient_repository.dart';
 import 'package:reach_out_rural/screens/diagnosis/cubit/diagnosis_cubit.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
 import 'package:reach_out_rural/widgets/default_icon_button.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 
 class DiagnosisScreen extends StatelessWidget {
   const DiagnosisScreen({super.key});

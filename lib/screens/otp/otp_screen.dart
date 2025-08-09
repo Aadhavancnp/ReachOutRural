@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:reach_out_rural/constants/constants.dart';
 import 'package:reach_out_rural/screens/otp/otp_form.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 
 class OtpScreen extends StatelessWidget {
   const OtpScreen(

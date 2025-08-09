@@ -29,6 +29,10 @@ class ApiService {
       final response = await _dioClient.post(_patientLogin, data: patientData);
       return response;
     } on DioException catch (e) {
+      if (e.response != null) {
+        // Return the error response so the repository can handle it
+        return e.response!;
+      }
       throw _handleApiError(e);
     }
   }
@@ -48,6 +52,10 @@ class ApiService {
           await _dioClient.post(_patientRegister, data: patientData);
       return response;
     } on DioException catch (e) {
+      if (e.response != null) {
+        // Return the error response so the repository can handle it
+        return e.response!;
+      }
       throw _handleApiError(e);
     }
   }

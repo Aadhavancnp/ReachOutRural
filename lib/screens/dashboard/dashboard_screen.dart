@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:reach_out_rural/constants/constants.dart';
 import 'package:reach_out_rural/models/hospital.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 import 'package:reach_out_rural/repository/auth/bloc/auth_bloc.dart';
 import 'package:reach_out_rural/repository/user/user_patient_repository.dart';
 import 'package:reach_out_rural/screens/dashboard/cubit/dashboard_cubit.dart';

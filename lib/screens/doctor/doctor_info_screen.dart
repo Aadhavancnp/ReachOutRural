@@ -9,7 +9,7 @@ import 'package:reach_out_rural/repository/storage/storage_repository.dart';
 import 'package:reach_out_rural/screens/doctor/cubit/doctorinfo_cubit.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
 import 'package:reach_out_rural/widgets/default_icon_button.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 
 class DoctorInfoScreen extends StatelessWidget {
   const DoctorInfoScreen({super.key, required this.doctor});

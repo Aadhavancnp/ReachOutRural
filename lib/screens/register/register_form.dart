@@ -8,7 +8,7 @@ import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:reach_out_rural/constants/constants.dart';
 import 'package:reach_out_rural/screens/register/bloc/register_bloc.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 import 'package:reach_out_rural/utils/toast.dart';
 import 'package:reach_out_rural/widgets/default_button_loader.dart';
 

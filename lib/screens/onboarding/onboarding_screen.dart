@@ -5,7 +5,7 @@ import 'package:reach_out_rural/constants/constants.dart';
 import 'package:reach_out_rural/repository/storage/storage_repository.dart';
 import 'package:reach_out_rural/screens/onboarding/onboarding_content.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 import 'package:reach_out_rural/widgets/default_button_loader.dart';
 
 class OnBoardingScreen extends StatefulWidget {

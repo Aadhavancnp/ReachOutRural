@@ -6,7 +6,7 @@ import 'package:reach_out_rural/constants/constants.dart';
 import 'package:reach_out_rural/screens/bloodgroup/cubit/bloodgroup_cubit.dart';
 import 'package:reach_out_rural/utils/size_config.dart';
 import 'package:reach_out_rural/widgets/default_button_loader.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:reach_out_rural/l10n/app_localizations.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class BloodGroupSelection extends StatelessWidget {
