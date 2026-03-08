@@ -30,8 +30,6 @@ class Message extends StatelessWidget {
           return ImageMessage(image: message.attachment);
         case ChatMessageType.file:
           return DocumentMessage(document: message.attachment);
-        default:
-          return const SizedBox();
       }
     }
 
